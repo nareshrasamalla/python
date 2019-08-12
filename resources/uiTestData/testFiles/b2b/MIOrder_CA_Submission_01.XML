@@ -1,0 +1,1128 @@
+<MESSAGE xmlns="http://www.mismo.org/residential/2009/schemas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MISMOReferenceModelIdentifier="3.3.0" xsi:schemaLocation="http://www.mismo.org/residential/2009/schemas file:///C:/Users/chandresh.sharma/Downloads/V3.3.0_CR_2014-02_PUBLICATION/V3.3.0_CR_2014-02/ReferenceModel_v3.3.0_B299/Combined/MISMO_3.3.0_B299.xsd">
+   <ABOUT_VERSIONS>
+      <ABOUT_VERSION SequenceNumber="1">
+         <AboutVersionIdentifier>MISMO MI Work Group v3.3.0 Sample Fixed Purchase File</AboutVersionIdentifier>
+         <CreatedDatetime>2018-03-30T13:00:00-00:00</CreatedDatetime>
+      </ABOUT_VERSION>
+   </ABOUT_VERSIONS>
+   <DEAL_SETS>
+      <DEAL_SET SequenceNumber="1">
+         <DEALS>
+            <DEAL SequenceNumber="1">
+               <ASSETS xsi:type="ASSETS">
+                  <ASSET xmlns:xlink="http://www.w3.org/1999/xlink" SequenceNumber="1" xlink:label="ASSET_01">
+                     <ASSET_DETAIL>
+                        <AssetAccountIdentifier>123</AssetAccountIdentifier>
+                        <AssetCashOrMarketValueAmount>23000.00</AssetCashOrMarketValueAmount>
+                        <AssetCashOrMarketValueAmount>23000.00</AssetCashOrMarketValueAmount>
+                        <AssetDescription>Any Bank USA</AssetDescription>
+                        <!--AssetType>CheckingAccount</AssetType-->
+                        <VerifiedIndicator>true</VerifiedIndicator>
+                     </ASSET_DETAIL>
+                     <VERIFICATION>
+                        <VerificationByName>Joe Processor</VerificationByName>
+                        <VerificationDate>2018-03-01</VerificationDate>
+                        <VerificationMethodType>Written</VerificationMethodType>
+                        <VerificationStatusType>Verified</VerificationStatusType>
+                     </VERIFICATION>
+                  </ASSET>
+                  <ASSET xmlns:xlink="http://www.w3.org/1999/xlink" SequenceNumber="2" xlink:label="ASSET_02">
+                     <ASSET_DETAIL>
+                        <AssetAccountIdentifier>456</AssetAccountIdentifier>
+                        <AssetCashOrMarketValueAmount>20000.00</AssetCashOrMarketValueAmount>
+                        <AssetDescription>Any Mutual Fund USA</AssetDescription>
+                        <AssetType />
+                        <VerifiedIndicator>true</VerifiedIndicator>
+                     </ASSET_DETAIL>
+                     <VERIFICATION>
+                        <VerificationByName>Joe Processor</VerificationByName>
+                        <VerificationDate>2018-03-01</VerificationDate>
+                        <VerificationMethodType>Written</VerificationMethodType>
+                        <VerificationStatusType>Verified</VerificationStatusType>
+                     </VERIFICATION>
+                  </ASSET>
+                  <ASSET xmlns:xlink="http://www.w3.org/1999/xlink" SequenceNumber="3" xlink:label="ASSET_03">
+                     <ASSET_DETAIL>
+                        <AssetCashOrMarketValueAmount>1000.00</AssetCashOrMarketValueAmount>
+                        <!--AssetType>Annuity</AssetType-->
+                        <VerifiedIndicator>true</VerifiedIndicator>
+                     </ASSET_DETAIL>
+                     <VERIFICATION>
+                        <VerificationByName>Joe Processor</VerificationByName>
+                        <VerificationDate>2018-03-01</VerificationDate>
+                        <VerificationMethodType>Written</VerificationMethodType>
+                        <VerificationStatusType>Verified</VerificationStatusType>
+                     </VERIFICATION>
+                  </ASSET>
+                  <ASSET xmlns:xlink="http://www.w3.org/1999/xlink" SequenceNumber="4" xlink:label="REO_01">
+                     <OWNED_PROPERTY xsi:type="OWNED_PROPERTY">
+                        <OWNED_PROPERTY_DETAIL>
+                           <OwnedPropertyDispositionStatusType>RetainForRental</OwnedPropertyDispositionStatusType>
+                           <OwnedPropertyLienInstallmentAmount>00.0</OwnedPropertyLienInstallmentAmount>
+                           <OwnedPropertyLienUPBAmount>00.0</OwnedPropertyLienUPBAmount>
+                           <OwnedPropertyMaintenanceExpenseAmount>315.0</OwnedPropertyMaintenanceExpenseAmount>
+                           <OwnedPropertyOwnedUnitCount>1</OwnedPropertyOwnedUnitCount>
+                           <OwnedPropertyRentalIncomeGrossAmount>815.0</OwnedPropertyRentalIncomeGrossAmount>
+                           <OwnedPropertyRentalIncomeNetAmount>815.0</OwnedPropertyRentalIncomeNetAmount>
+                        </OWNED_PROPERTY_DETAIL>
+                        <PROPERTY ValuationUseType="SubjectProperty">
+                           <ADDRESS>
+                              <AddressLineText>74500 Madison Street</AddressLineText>
+                              <AddressUnitDesignatorType>Condo</AddressUnitDesignatorType>
+                              <CityName>Dearborn</CityName>
+                              <CountyName>Wayne</CountyName>
+                              <PostalCode>40342</PostalCode>
+                              <StateCode>KY</StateCode>
+                           </ADDRESS>
+                        </PROPERTY>
+                     </OWNED_PROPERTY>
+                  </ASSET>
+                  <ASSET xmlns:xlink="http://www.w3.org/1999/xlink" SequenceNumber="4" xlink:label="REO_02">
+                     <OWNED_PROPERTY xsi:type="OWNED_PROPERTY">
+                        <OWNED_PROPERTY_DETAIL>
+                           <OwnedPropertyDispositionStatusType>RetainForRental</OwnedPropertyDispositionStatusType>
+                           <OwnedPropertyLienInstallmentAmount>00.0</OwnedPropertyLienInstallmentAmount>
+                           <OwnedPropertyLienUPBAmount>00.0</OwnedPropertyLienUPBAmount>
+                           <OwnedPropertyMaintenanceExpenseAmount>315.0</OwnedPropertyMaintenanceExpenseAmount>
+                           <OwnedPropertyOwnedUnitCount>1</OwnedPropertyOwnedUnitCount>
+                           <OwnedPropertyRentalIncomeGrossAmount>815.0</OwnedPropertyRentalIncomeGrossAmount>
+                           <OwnedPropertyRentalIncomeNetAmount>820.0</OwnedPropertyRentalIncomeNetAmount>
+                        </OWNED_PROPERTY_DETAIL>
+                        <PROPERTY ValuationUseType="SubjectProperty">
+                           <ADDRESS>
+                              <AddressLineText>74500 Madison Street</AddressLineText>
+                              <AddressUnitDesignatorType>Condo</AddressUnitDesignatorType>
+                              <CityName>Dearborn</CityName>
+                              <CountyName>Wayne</CountyName>
+                              <PostalCode>40342</PostalCode>
+                              <StateCode>KY</StateCode>
+                           </ADDRESS>
+                        </PROPERTY>
+                     </OWNED_PROPERTY>
+                  </ASSET>
+               </ASSETS>
+               <COLLATERALS>
+                  <COLLATERAL SequenceNumber="1">
+                     <SUBJECT_PROPERTY ValuationUseType="SubjectProperty">
+                        <ADDRESS>
+                           <AddressLineText>PLAZA DRIVE</AddressLineText>
+                           <CityName>LAWRENCEBURG</CityName>
+                           <CountyName>ANDERSON COUNTY</CountyName>
+                           <PostalCode>40342</PostalCode>
+                           <StateCode>KY</StateCode>
+                        </ADDRESS>
+                        <LOCATION_IDENTIFIER>
+                           <FIPS_INFORMATION>
+                              <FIPSCountyCode>26-21020</FIPSCountyCode>
+                           </FIPS_INFORMATION>
+                        </LOCATION_IDENTIFIER>
+                        <MANUFACTURED_HOME>
+                           <MANUFACTURED_HOME_DETAIL>
+                              <ManufacturedHomeWidthType>MultiWide</ManufacturedHomeWidthType>
+                           </MANUFACTURED_HOME_DETAIL>
+                        </MANUFACTURED_HOME>
+                        <PROJECT>
+                           <!--PROJECT_DETAIL>
+										<ProjectDesignType>MidriseProject</ProjectDesignType>
+										<ProjectLegalStructureType>Cooperative</ProjectLegalStructureType>
+										<PUDIndicator>false</PUDIndicator>
+									</PROJECT_DETAIL-->
+                        </PROJECT>
+                        <PROPERTY_DETAIL>
+                           <AttachmentType>Attached</AttachmentType>
+                           <ConstructionMethodType>SiteBuilt</ConstructionMethodType>
+                           <FinancedUnitCount>1</FinancedUnitCount>
+                           <LandTrustType>Other</LandTrustType>
+                           <LenderDesignatedDecliningMarketIdentifier>Stable</LenderDesignatedDecliningMarketIdentifier>
+                           <PriorSaleInLastTwelveMonthsIndicator>false</PriorSaleInLastTwelveMonthsIndicator>
+                           <PropertyEstateType>FeeSimple</PropertyEstateType>
+                           <PropertyEstimatedValueAmount>563333.33</PropertyEstimatedValueAmount>
+                           <PropertyStructureBuiltYear>1990</PropertyStructureBuiltYear>
+                           <PropertyUsageType>PrimaryResidence</PropertyUsageType>
+                        </PROPERTY_DETAIL>
+                        <PROPERTY_TITLE>
+                           <SellerPropertyAcquisitionDate>2013-10-15</SellerPropertyAcquisitionDate>
+                        </PROPERTY_TITLE>
+                        <PROPERTY_VALUATIONS>
+                           <PROPERTY_VALUATION SequenceNumber="1">
+                              <PROPERTY_VALUATION_DETAIL>
+                                 <AppraisalIdentifier>445566</AppraisalIdentifier>
+                                 <PropertyInspectionType>ExteriorAndInterior</PropertyInspectionType>
+                                 <PropertyValuationAmount>159000.00</PropertyValuationAmount>
+                                 <PropertyValuationConditionalConclusionType>AsIs</PropertyValuationConditionalConclusionType>
+                                 <PropertyValuationEffectiveDate>2018-03-01</PropertyValuationEffectiveDate>
+                                 <PropertyValuationFormType>AppraisalUpdateAndOrCompletionReport</PropertyValuationFormType>
+                                 <PropertyValuationMethodType>FullAppraisal</PropertyValuationMethodType>
+                                 <PropertyValuationStateType>Original</PropertyValuationStateType>
+                              </PROPERTY_VALUATION_DETAIL>
+                           </PROPERTY_VALUATION>
+                        </PROPERTY_VALUATIONS>
+                        <SALES_CONTRACTS>
+                           <SALES_CONTRACT SequenceNumber="1">
+                              <SALES_CONCESSIONS>
+                                 <SALES_CONCESSION SequenceNumber="1">
+                                    <SalesConcessionAmount>0.00</SalesConcessionAmount>
+                                 </SALES_CONCESSION>
+                              </SALES_CONCESSIONS>
+                           </SALES_CONTRACT>
+                        </SALES_CONTRACTS>
+                     </SUBJECT_PROPERTY>
+                  </COLLATERAL>
+               </COLLATERALS>
+               <!--EXPENSES xsi:type="EXPENSES">
+						<EXPENSE xmlns:xlink="http://www.w3.org/1999/xlink" SequenceNumber="1" xlink:label="EXPENSE_01">
+							<ExpenseDescription>Child Support Expense</ExpenseDescription>
+							<ExpenseMonthlyPaymentAmount>6.0</ExpenseMonthlyPaymentAmount>
+							<ExpenseRemainingTermMonthsCount>120</ExpenseRemainingTermMonthsCount>
+							<ExpenseType>ChildSupport</ExpenseType>
+						</EXPENSE>
+					</EXPENSES-->
+               <LIABILITIES xsi:type="LIABILITIES">
+                  <LIABILITY xmlns:xlink="http://www.w3.org/1999/xlink" SequenceNumber="1" xlink:label="LIAB_01">
+                     <LIABILITY_DETAIL>
+                        <LiabilityDescription>American Express</LiabilityDescription>
+                        <LiabilityExclusionIndicator>false</LiabilityExclusionIndicator>
+                        <LiabilityMonthlyPaymentAmount>4000.0</LiabilityMonthlyPaymentAmount>
+                        <LiabilityPayoffStatusIndicator>false</LiabilityPayoffStatusIndicator>
+                        <LiabilityRemainingTermMonthsCount>20</LiabilityRemainingTermMonthsCount>
+                        <LiabilityType>Installment</LiabilityType>
+                        <LiabilityUnpaidBalanceAmount>500.0</LiabilityUnpaidBalanceAmount>
+                        <SubjectLoanResubordinationIndicator>false</SubjectLoanResubordinationIndicator>
+                     </LIABILITY_DETAIL>
+                  </LIABILITY>
+                  <LIABILITY xmlns:xlink="http://www.w3.org/1999/xlink" SequenceNumber="2" xlink:label="LIAB_02">
+                     <LIABILITY_DETAIL>
+                        <LiabilityDescription>Any Bank USA</LiabilityDescription>
+                        <LiabilityExclusionIndicator>false</LiabilityExclusionIndicator>
+                        <LiabilityMonthlyPaymentAmount>4600.00</LiabilityMonthlyPaymentAmount>
+                        <LiabilityPayoffStatusIndicator>false</LiabilityPayoffStatusIndicator>
+                        <LiabilityRemainingTermMonthsCount>12</LiabilityRemainingTermMonthsCount>
+                        <LiabilityType>Installment</LiabilityType>
+                        <LiabilityUnpaidBalanceAmount>5336.00</LiabilityUnpaidBalanceAmount>
+                        <SubjectLoanResubordinationIndicator>false</SubjectLoanResubordinationIndicator>
+                     </LIABILITY_DETAIL>
+                  </LIABILITY>
+               </LIABILITIES>
+               <LOANS xsi:type="LOANS">
+                  <LOAN LoanRoleType="SubjectLoan" SequenceNumber="1">
+                     <ADJUSTMENT>
+                        <INTEREST_RATE_ADJUSTMENT>
+                           <INTEREST_RATE_LIFETIME_ADJUSTMENT_RULE>
+                              <FirstRateChangeMonthsCount>90</FirstRateChangeMonthsCount>
+                              <MarginRatePercent>23</MarginRatePercent>
+                              <MaximumIncreaseRatePercent>5.0</MaximumIncreaseRatePercent>
+                           </INTEREST_RATE_LIFETIME_ADJUSTMENT_RULE>
+                           <INTEREST_RATE_PER_CHANGE_ADJUSTMENT_RULES>
+                              <INTEREST_RATE_PER_CHANGE_ADJUSTMENT_RULE SequenceNumber="1">
+                                 <AdjustmentRuleType>First</AdjustmentRuleType>
+                                 <PerChangeMaximumIncreaseRatePercent>1.0</PerChangeMaximumIncreaseRatePercent>
+                                 <PerChangeRateAdjustmentFrequencyMonthsCount>90</PerChangeRateAdjustmentFrequencyMonthsCount>
+                              </INTEREST_RATE_PER_CHANGE_ADJUSTMENT_RULE>
+                              <INTEREST_RATE_PER_CHANGE_ADJUSTMENT_RULE SequenceNumber="2">
+                                 <AdjustmentRuleType>Subsequent</AdjustmentRuleType>
+                                 <PerChangeMaximumIncreaseRatePercent>1.0</PerChangeMaximumIncreaseRatePercent>
+                                 <PerChangeRateAdjustmentFrequencyMonthsCount>90</PerChangeRateAdjustmentFrequencyMonthsCount>
+                              </INTEREST_RATE_PER_CHANGE_ADJUSTMENT_RULE>
+                           </INTEREST_RATE_PER_CHANGE_ADJUSTMENT_RULES>
+                        </INTEREST_RATE_ADJUSTMENT>
+                     </ADJUSTMENT>
+                     <AFFORDABLE_LENDING>
+                        <!--FNMCommunityLendingProductType>MyCommunityMortgage</FNMCommunityLendingProductType-->
+                        <!--FNMCommunityLendingProductTypeOtherDescription>LP-3</FNMCommunityLendingProductTypeOtherDescription-->
+                     </AFFORDABLE_LENDING>
+                     <AMORTIZATION>
+                        <AMORTIZATION_RULE>
+                           <AmortizationType>Fixed</AmortizationType>
+                           <LoanAmortizationPeriodCount>360</LoanAmortizationPeriodCount>
+                           <LoanAmortizationPeriodType>Month</LoanAmortizationPeriodType>
+                        </AMORTIZATION_RULE>
+                     </AMORTIZATION>
+                     <BUYDOWN>
+                        <BUYDOWN_RULE>
+                           <BuydownChangeFrequencyMonthsCount>12</BuydownChangeFrequencyMonthsCount>
+                           <BuydownDurationMonthsCount>24</BuydownDurationMonthsCount>
+                           <BuydownIncreaseRatePercent>2.306</BuydownIncreaseRatePercent>
+                        </BUYDOWN_RULE>
+                     </BUYDOWN>
+                     <CLOSING_INFORMATION>
+                        <CLOSING_INFORMATION_DETAIL>
+                           <ClosingDate>2018-09-23</ClosingDate>
+                        </CLOSING_INFORMATION_DETAIL>
+                     </CLOSING_INFORMATION>
+                     <CONSTRUCTION>
+                        <ConstructionLoanType>ConstructionOnly</ConstructionLoanType>
+                     </CONSTRUCTION>
+                     <DOCUMENT_SPECIFIC_DATA_SETS>
+                        <DOCUMENT_SPECIFIC_DATA_SET SequenceNumber="1">
+                           <URLA>
+                              <URLA_DETAIL>
+                                 <AdditionalBorrowerAssetsNotConsideredIndicator>true</AdditionalBorrowerAssetsNotConsideredIndicator>
+                                 <AlterationsImprovementsAndRepairsAmount>0.00</AlterationsImprovementsAndRepairsAmount>
+                                 <BorrowerPaidDiscountPointsTotalAmount>0.0</BorrowerPaidDiscountPointsTotalAmount>
+                                 <BorrowerRequestedInterestRatePercent>4.75</BorrowerRequestedInterestRatePercent>
+                                 <BorrowerRequestedLoanAmount>151050.0</BorrowerRequestedLoanAmount>
+                                 <EstimatedClosingCostsAmount>0.0</EstimatedClosingCostsAmount>
+                                 <MIAndFundingFeeFinancedAmount>0.0</MIAndFundingFeeFinancedAmount>
+                                 <MIAndFundingFeeTotalAmount>0.0</MIAndFundingFeeTotalAmount>
+                                 <PrepaidItemsEstimatedAmount>2300.0</PrepaidItemsEstimatedAmount>
+                                 <PurchasePriceAmount>159000.00</PurchasePriceAmount>
+                                 <SellerPaidClosingCostsAmount>1700.0</SellerPaidClosingCostsAmount>
+                              </URLA_DETAIL>
+                           </URLA>
+                        </DOCUMENT_SPECIFIC_DATA_SET>
+                     </DOCUMENT_SPECIFIC_DATA_SETS>
+                     <DOCUMENTATIONS>
+                        <DOCUMENTATION SequenceNumber="1">
+                           <!-- The MI's use the DocumentationLevelIdentifier fields to determine if the loan is considered an Alt A product, i.e., the borrower is APPLYING for a limited/reduced documentation loan.-->
+                           <AssetDocumentationLevelIdentifier>StatedandVerfied</AssetDocumentationLevelIdentifier>
+                           <!-- In their ULDD specification, Fannie Mae has defined StatedOnly, StatedandVerified, NeitherStatedNorVerified, NotRequired -->
+                           <AssetDocumentType>BankStatement</AssetDocumentType>
+                        </DOCUMENTATION>
+                        <DOCUMENTATION SequenceNumber="2">
+                           <EmploymentDocumentationLevelIdentifier>StatedandVerified</EmploymentDocumentationLevelIdentifier>
+                           <EmploymentDocumentType>VerificationOfEmployment</EmploymentDocumentType>
+                           <EmploymentVerificationRangeType>MostRecentYear</EmploymentVerificationRangeType>
+                        </DOCUMENTATION>
+                        <DOCUMENTATION SequenceNumber="3">
+                           <IncomeDocumentationLevelIdentifier>StatedandVerified</IncomeDocumentationLevelIdentifier>
+                           <IncomeDocumentType>VerificationOfIncome</IncomeDocumentType>
+                           <IncomeVerificationRangeType>MostRecentYear</IncomeVerificationRangeType>
+                        </DOCUMENTATION>
+                     </DOCUMENTATIONS>
+                     <DOWN_PAYMENTS>
+                        <DOWN_PAYMENT SequenceNumber="1">
+                           <DownPaymentAmount>20000.00</DownPaymentAmount>
+                           <FundsSourceType>Borrower</FundsSourceType>
+                           <FundsType>CheckingSavings</FundsType>
+                           <PropertySellerFundingIndicator>true</PropertySellerFundingIndicator>
+                        </DOWN_PAYMENT>
+                        <DOWN_PAYMENT SequenceNumber="2">
+                           <DownPaymentAmount>3000.00</DownPaymentAmount>
+                           <FundsSourceType>Parent</FundsSourceType>
+                           <FundsType>GiftFunds</FundsType>
+                           <PropertySellerFundingIndicator>true</PropertySellerFundingIndicator>
+                        </DOWN_PAYMENT>
+                     </DOWN_PAYMENTS>
+                     <FEE_INFORMATION>
+                        <FEES>
+                           <FEE SequenceNumber="1">
+                              <FEE_DETAIL>
+                                 <FeeType>ApplicationFee</FeeType>
+                              </FEE_DETAIL>
+                              <FEE_PAYMENTS>
+                                 <FEE_PAYMENT>
+                                    <FeeActualPaymentAmount>50.00</FeeActualPaymentAmount>
+                                 </FEE_PAYMENT>
+                              </FEE_PAYMENTS>
+                           </FEE>
+                        </FEES>
+                     </FEE_INFORMATION>
+                     <HOUSING_EXPENSES>
+                        <!--HOUSING_EXPENSE>
+									<HousingExpensePaymentAmount>30</HousingExpensePaymentAmount>
+									<HousingExpensePaymentAmountType>Present</HousingExpensePaymentAmountType>
+									<HousingExpenseType>RealEstateTax</HousingExpenseType>
+								</HOUSING_EXPENSE>
+								<HOUSING_EXPENSE>
+									<HousingExpensePaymentAmount>225.0</HousingExpensePaymentAmount>
+									<HousingExpensePaymentAmountType>Present</HousingExpensePaymentAmountType>
+									<HousingExpenseType>GroundRent</HousingExpenseType>
+								</HOUSING_EXPENSE>
+								<HOUSING_EXPENSE>
+									<HousingExpensePaymentAmount>225.0</HousingExpensePaymentAmount>
+									<HousingExpensePaymentAmountType>Proposed</HousingExpensePaymentAmountType>
+									<HousingExpenseType>HazardInsurance</HousingExpenseType>
+								</HOUSING_EXPENSE>
+								<HOUSING_EXPENSE>
+									<HousingExpensePaymentAmount>225.0</HousingExpensePaymentAmount>
+									<HousingExpensePaymentAmountType>Proposed</HousingExpensePaymentAmountType>
+									<HousingExpenseType>HomeownersAssociationDuesAndCondominiumFees</HousingExpenseType>
+								</HOUSING_EXPENSE>
+								<HOUSING_EXPENSE>
+									<HousingExpensePaymentAmount>225.0</HousingExpensePaymentAmount>
+									<HousingExpensePaymentAmountType>Proposed</HousingExpensePaymentAmountType>
+									<HousingExpenseType>MI</HousingExpenseType>
+								</HOUSING_EXPENSE>
+								<HOUSING_EXPENSE>
+									<HousingExpensePaymentAmount>225.0</HousingExpensePaymentAmount>
+									<HousingExpensePaymentAmountType>Proposed</HousingExpensePaymentAmountType>
+									<HousingExpenseType>OtherMortgageLoanPrincipalAndInterest</HousingExpenseType>
+								</HOUSING_EXPENSE>
+								<HOUSING_EXPENSE>
+									<HousingExpensePaymentAmount>225.0</HousingExpensePaymentAmount>
+									<HousingExpensePaymentAmountType>Proposed</HousingExpensePaymentAmountType>
+									<HousingExpenseType>RealEstateTax</HousingExpenseType>
+								</HOUSING_EXPENSE-->
+                        <HOUSING_EXPENSE>
+                           <HousingExpensePaymentAmount>25.0</HousingExpensePaymentAmount>
+                           <HousingExpensePaymentAmountType>Proposed</HousingExpensePaymentAmountType>
+                           <HousingExpenseType>HazardInsurance</HousingExpenseType>
+                        </HOUSING_EXPENSE>
+                     </HOUSING_EXPENSES>
+                     <INTEREST_ONLY>
+                        <InterestOnlyMonthlyPaymentAmount>0.0</InterestOnlyMonthlyPaymentAmount>
+                        <InterestOnlyTermMonthsCount>0</InterestOnlyTermMonthsCount>
+                     </INTEREST_ONLY>
+                     <LOAN_DETAIL>
+                        <ApplicationReceivedDate>2018-03-01</ApplicationReceivedDate>
+                        <BalloonIndicator>false</BalloonIndicator>
+                        <BorrowerCount>2</BorrowerCount>
+                        <BuydownTemporarySubsidyFundingIndicator>false</BuydownTemporarySubsidyFundingIndicator>
+                        <ClosingCostFinancedIndicator>false</ClosingCostFinancedIndicator>
+                        <ConstructionLoanIndicator>false</ConstructionLoanIndicator>
+                        <CurrentInterestRatePercent>0.0</CurrentInterestRatePercent>
+                        <!--CurrentInterestRatePercent applies to a seasoned loan only-->
+                        <EmployeeLoanProgramIndicator>false</EmployeeLoanProgramIndicator>
+                        <HELOCIndicator>false</HELOCIndicator>
+                        <InterestOnlyIndicator>false</InterestOnlyIndicator>
+                        <LoanRepaymentType>ScheduledAmortization</LoanRepaymentType>
+                        <NegativeAmortizationIndicator>false</NegativeAmortizationIndicator>
+                        <PrepaymentPenaltyIndicator>false</PrepaymentPenaltyIndicator>
+                        <PropertyInspectionWaiverIndicator>false</PropertyInspectionWaiverIndicator>
+                        <RelocationLoanIndicator>true</RelocationLoanIndicator>
+                        <TotalSubordinateFinancingAmount>0</TotalSubordinateFinancingAmount>
+                        <!--TotalSalesConcessionAmount>0.0</TotalSalesConcessionAmount-->
+                     </LOAN_DETAIL>
+                     <LOAN_IDENTIFIERS>
+                        <LOAN_IDENTIFIER SequenceNumber="1">
+                           <LoanIdentifier>Miorderpdf_3.3</LoanIdentifier>
+                           <LoanIdentifierType>LenderLoan</LoanIdentifierType>
+                        </LOAN_IDENTIFIER>
+                        <LOAN_IDENTIFIER SequenceNumber="2">
+                           <LoanIdentifier>MPQQQUL</LoanIdentifier>
+                           <LoanIdentifierType>MIRateQuote</LoanIdentifierType>
+                        </LOAN_IDENTIFIER>
+                     </LOAN_IDENTIFIERS>
+                     <LOAN_LEVEL_CREDIT>
+                        <CREDIT_SCORE_PROVIDER>
+                           <ADDRESS>
+                              <AddressLineText>123 Any Credit Agency Street</AddressLineText>
+                           </ADDRESS>
+                           <CREDIT_SCORE_PROVIDER_DETAIL>
+                              <CreditScoreProviderName>Kroll Factual Data</CreditScoreProviderName>
+                           </CREDIT_SCORE_PROVIDER_DETAIL>
+                        </CREDIT_SCORE_PROVIDER>
+                        <LOAN_LEVEL_CREDIT_DETAIL>
+                           <LoanLevelCreditScoreValue>700</LoanLevelCreditScoreValue>
+                        </LOAN_LEVEL_CREDIT_DETAIL>
+                     </LOAN_LEVEL_CREDIT>
+                     <LOAN_PRODUCT>
+                        <LOAN_PRODUCT_DETAIL>
+                           <!--ProductDescription>30 Year Fixed</ProductDescription>
+									<ProductIdentifier>8188</ProductIdentifier-->
+                           <!--ProductName>LP-13</ProductName-->
+                        </LOAN_PRODUCT_DETAIL>
+                     </LOAN_PRODUCT>
+                     <LOAN_PROGRAMS>
+                        <LOAN_PROGRAM SequenceNumber="1">
+                           <LoanProgramAffordableIndicator>false</LoanProgramAffordableIndicator>
+                           <!--LoanProgramIdentifier>IdentifierOwnerURI="http://Fanniemae.com"HARP-FNM"</LoanProgramIdentifier-->
+                        </LOAN_PROGRAM>
+                     </LOAN_PROGRAMS>
+                     <LOAN_STATE>
+                        <LoanStateType>AtUnderwriting</LoanStateType>
+                     </LOAN_STATE>
+                     <LOAN_STATUSES>
+                        <LOAN_STATUS SequenceNumber="1">
+                           <LoanStatusDate>2018-03-11</LoanStatusDate>
+                        </LOAN_STATUS>
+                     </LOAN_STATUSES>
+                     <LTV>
+                        <BaseLTVRatioPercent>90.0</BaseLTVRatioPercent>
+                        <!--xsd:documentation>The result of dividing the difference of the original unpaid principal balance (UPB) minus the financed mortgage insurance premium by the value of the subject property. CALCULATED RESULTS FIELD.-->
+                        <!--        <LTVRatioPercent>97.0</LTVRatioPercent>-->
+                        <!--xsd:documentation>The ratio of the (outstanding) loan amount to the appraised value, estimated value or purchase price of the property.-->
+                     </LTV>
+                     <MATURITY>
+                        <!--Used for balloon loans-->
+                        <MATURITY_RULE>
+                           <LoanMaturityPeriodCount>180</LoanMaturityPeriodCount>
+                           <LoanMaturityPeriodType>Month</LoanMaturityPeriodType>
+                        </MATURITY_RULE>
+                     </MATURITY>
+                     <ORIGINATION_FUNDS>
+                        <!--<ORIGINATION_FUND></ORIGINATION_FUND>-->
+                        <ORIGINATION_FUND SequenceNumber="1">
+                           <FundsType>CheckingSavings</FundsType>
+                           <OriginationFundsAmount>0.00</OriginationFundsAmount>
+                        </ORIGINATION_FUND>
+                     </ORIGINATION_FUNDS>
+                     <ORIGINATION_SYSTEMS>
+                        <ORIGINATION_SYSTEM SequenceNumber="1">
+                           <LoanOriginationSystemName>LOS System Name Here</LoanOriginationSystemName>
+                           <LoanOriginationSystemVersionIdentifier>version 3.0</LoanOriginationSystemVersionIdentifier>
+                        </ORIGINATION_SYSTEM>
+                     </ORIGINATION_SYSTEMS>
+                     <PAYMENT>
+                        <PAYMENT_RULE>
+                           <InitialPaymentRatePercent>4.55</InitialPaymentRatePercent>
+                           <InitialPITIPaymentAmount>1419.81</InitialPITIPaymentAmount>
+                           <InitialPrincipalAndInterestPaymentAmount>1079.81</InitialPrincipalAndInterestPaymentAmount>
+                           <InitialTaxAndInsurancePaymentAmount>275.0</InitialTaxAndInsurancePaymentAmount>
+                           <PaymentFrequencyType>Monthly</PaymentFrequencyType>
+                           <PaymentOptionIndicator>false</PaymentOptionIndicator>
+                           <ScheduledFirstPaymentDate>2018-06-01</ScheduledFirstPaymentDate>
+                        </PAYMENT_RULE>
+                     </PAYMENT>
+                     <PREPAYMENT_PENALTY>
+                        <PREPAYMENT_PENALTY_PER_CHANGE_RULES>
+                           <PREPAYMENT_PENALTY_PER_CHANGE_RULE SequenceNumber="1">
+                              <PrepaymentPenaltyPercent>0.00</PrepaymentPenaltyPercent>
+                              <PrepaymentPenaltyPeriodCount>0</PrepaymentPenaltyPeriodCount>
+                           </PREPAYMENT_PENALTY_PER_CHANGE_RULE>
+                        </PREPAYMENT_PENALTY_PER_CHANGE_RULES>
+                     </PREPAYMENT_PENALTY>
+                     <PURCHASE_CREDITS>
+                        <PURCHASE_CREDIT SequenceNumber="1">
+                           <PurchaseCreditAmount>3000.0</PurchaseCreditAmount>
+                           <PurchaseCreditSourceType>Parent</PurchaseCreditSourceType>
+                           <PurchaseCreditType>EarnestMoney</PurchaseCreditType>
+                        </PURCHASE_CREDIT>
+                     </PURCHASE_CREDITS>
+                     <QUALIFICATION>
+                        <HousingExpenseRatioPercent>25</HousingExpenseRatioPercent>
+                        <QualifyingRatePercent>4.25</QualifyingRatePercent>
+                        <TotalDebtExpenseRatioPercent>57.42</TotalDebtExpenseRatioPercent>
+                     </QUALIFICATION>
+                     <REFINANCE>
+                        <RefinanceCashOutDeterminationType>CashOut</RefinanceCashOutDeterminationType>
+                     </REFINANCE>
+                     <TERMS_OF_LOAN>
+                        <BaseLoanAmount>151050</BaseLoanAmount>
+                        <DisclosedIndexRatePercent>4.25</DisclosedIndexRatePercent>
+                        <LienPriorityType>FirstLien</LienPriorityType>
+                        <LoanPurposeType>Purchase</LoanPurposeType>
+                        <MortgageType>Conventional</MortgageType>
+                        <NoteAmount>119475.0</NoteAmount>
+                        <NoteRatePercent>4.25</NoteRatePercent>
+                     </TERMS_OF_LOAN>
+                     <UNDERWRITING>
+                        <AUTOMATED_UNDERWRITINGS>
+                           <AUTOMATED_UNDERWRITING SequenceNumber="1">
+                              <AutomatedUnderwritingCaseIdentifier IdentifierOwnerURI="http://Fanniemae.com">888844444</AutomatedUnderwritingCaseIdentifier>
+                              <AutomatedUnderwritingDecisionDatetime>2018-03-10T14:00:00-08:00</AutomatedUnderwritingDecisionDatetime>
+                              <AutomatedUnderwritingSystemDocumentWaiverIndicator>true</AutomatedUnderwritingSystemDocumentWaiverIndicator>
+                              <AutomatedUnderwritingSystemType>DesktopUnderwriter</AutomatedUnderwritingSystemType>
+                              <DesktopUnderwriterRecommendationType>ApproveEligible</DesktopUnderwriterRecommendationType>
+                           </AUTOMATED_UNDERWRITING>
+                           <AUTOMATED_UNDERWRITING SequenceNumber="2">
+                              <AutomatedUnderwritingCaseIdentifier IdentifierOwnerURI="http://Freddiemac.com">44442222</AutomatedUnderwritingCaseIdentifier>
+                              <AutomatedUnderwritingDecisionDatetime>2016-03-10T14:00:00-08:00</AutomatedUnderwritingDecisionDatetime>
+                              <AutomatedUnderwritingSystemType>LoanProspector</AutomatedUnderwritingSystemType>
+                              <FREPurchaseEligibilityType>FreddieMacEligible</FREPurchaseEligibilityType>
+                              <LoanProspectorCreditRiskClassificationDescription>Accept</LoanProspectorCreditRiskClassificationDescription>
+                           </AUTOMATED_UNDERWRITING>
+                        </AUTOMATED_UNDERWRITINGS>
+                        <UNDERWRITING_DETAIL>
+                           <UnderwritingCommentsDescription>check the comments-5</UnderwritingCommentsDescription>
+                        </UNDERWRITING_DETAIL>
+                     </UNDERWRITING>
+                  </LOAN>
+               </LOANS>
+               <PARTIES>
+                  <PARTY SequenceNumber="1" xsi:type="PARTY">
+                     <!--TPO SECTION-->
+                     <LEGAL_ENTITY>
+                        <CONTACTS>
+                           <CONTACT>
+                              <CONTACT_POINTS>
+                                 <CONTACT_POINT>
+                                    <CONTACT_POINT_EMAIL>
+                                       <ContactPointEmailValue>test@tavant.com</ContactPointEmailValue>
+                                    </CONTACT_POINT_EMAIL>
+                                 </CONTACT_POINT>
+                                 <CONTACT_POINT>
+                                    <CONTACT_POINT_TELEPHONE>
+                                       <ContactPointTelephoneValue>7829869856</ContactPointTelephoneValue>
+                                    </CONTACT_POINT_TELEPHONE>
+                                 </CONTACT_POINT>
+                              </CONTACT_POINTS>
+                              <NAME>
+                                 <FullName>Corp Bank</FullName>
+                              </NAME>
+                           </CONTACT>
+                        </CONTACTS>
+                        <LEGAL_ENTITY_DETAIL>
+                           <FullName>Corp Bank</FullName>
+                        </LEGAL_ENTITY_DETAIL>
+                     </LEGAL_ENTITY>
+                     <ROLES>
+                        <ROLE>
+                           <LICENSES>
+                              <LICENSE>
+                                 <LICENSE_DETAIL>
+                                    <LicenseIdentifier>88888</LicenseIdentifier>
+                                 </LICENSE_DETAIL>
+                              </LICENSE>
+                           </LICENSES>
+                        </ROLE>
+                        <ROLE>
+                           <ROLE_DETAIL>
+                              <PartyRoleType>Lender</PartyRoleType>
+                           </ROLE_DETAIL>
+                        </ROLE>
+                     </ROLES>
+                  </PARTY>
+                  <PARTY SequenceNumber="2" xsi:type="PARTY">
+                     <!--Requesting_Party_Section-->
+                     <LEGAL_ENTITY>
+                        <CONTACTS>
+                           <CONTACT>
+                              <CONTACT_POINTS>
+                                 <CONTACT_POINT>
+                                    <CONTACT_POINT_EMAIL>
+                                       <ContactPointEmailValue>hemanth1_underwriter@abcmortgage.com</ContactPointEmailValue>
+                                    </CONTACT_POINT_EMAIL>
+                                    <CONTACT_POINT_DETAIL>
+                                       <ContactPointPreferenceIndicator>true</ContactPointPreferenceIndicator>
+                                       <ContactPointRoleType>Work</ContactPointRoleType>
+                                    </CONTACT_POINT_DETAIL>
+                                 </CONTACT_POINT>
+                                 <CONTACT_POINT>
+                                    <CONTACT_POINT_TELEPHONE>
+                                       <ContactPointTelephoneValue>2484334400</ContactPointTelephoneValue>
+                                    </CONTACT_POINT_TELEPHONE>
+                                    <CONTACT_POINT_DETAIL>
+                                       <ContactPointPreferenceIndicator>true</ContactPointPreferenceIndicator>
+                                       <ContactPointRoleType>Work</ContactPointRoleType>
+                                    </CONTACT_POINT_DETAIL>
+                                 </CONTACT_POINT>
+                              </CONTACT_POINTS>
+                              <NAME>
+                                 <FullName>Hemanth1</FullName>
+                                 <FunctionalTitleDescription>Underwriter</FunctionalTitleDescription>
+                              </NAME>
+                           </CONTACT>
+                        </CONTACTS>
+                        <LEGAL_ENTITY_DETAIL>
+                           <FullName>Mortgage Company</FullName>
+                        </LEGAL_ENTITY_DETAIL>
+                        <EXTENSION>
+                           <OTHER>
+                              <!--<LenderAccountIdentifier>QATest</LenderAccountIdentifier>
+										<LenderAccountPassword>Nmi.0311$</LenderAccountPassword>-->
+                              <LenderAccountIdentifier>Qat_ProQA_Test</LenderAccountIdentifier>
+                              <LenderAccountPassword>B3foreDayS@L!ght</LenderAccountPassword>
+                           </OTHER>
+                        </EXTENSION>
+                     </LEGAL_ENTITY>
+                     <ROLES>
+                        <ROLE>
+                           <REQUESTING_PARTY>
+                              <InternalAccountIdentifier>1234</InternalAccountIdentifier>
+                              <RequestingPartyBranchIdentifier>1234</RequestingPartyBranchIdentifier>
+                           </REQUESTING_PARTY>
+                           <ROLE_DETAIL>
+                              <PartyRoleType>RequestingParty</PartyRoleType>
+                           </ROLE_DETAIL>
+                        </ROLE>
+                     </ROLES>
+                  </PARTY>
+                  <PARTY SequenceNumber="3" xsi:type="PARTY">
+                     <!--Submitting_Party_Section-->
+                     <LEGAL_ENTITY>
+                        <LEGAL_ENTITY_DETAIL>
+                           <FullName>XYZ Web Portal Company</FullName>
+                        </LEGAL_ENTITY_DETAIL>
+                        <EXTENSION>
+                           <!--OTHER>
+										<LenderAccountIdentifier>Tavant33</LenderAccountIdentifier>
+										<LenderAccountPassword>Tav.7299</LenderAccountPassword>
+									</OTHER-->
+                        </EXTENSION>
+                     </LEGAL_ENTITY>
+                     <ROLES>
+                        <ROLE>
+                           <ROLE_DETAIL>
+                              <PartyRoleType>SubmittingParty</PartyRoleType>
+                           </ROLE_DETAIL>
+                        </ROLE>
+                        <ROLE>
+                           <SUBMITTING_PARTY>
+                              <SubmittingPartyTransactionIdentifier>S5678</SubmittingPartyTransactionIdentifier>
+                           </SUBMITTING_PARTY>
+                        </ROLE>
+                     </ROLES>
+                  </PARTY>
+                  <PARTY SequenceNumber="4" xsi:type="PARTY">
+                     <!--Respond_To_Party_Section-->
+                     <LEGAL_ENTITY>
+                        <CONTACTS>
+                           <CONTACT>
+                              <CONTACT_POINTS>
+                                 <CONTACT_POINT>
+                                    <CONTACT_POINT_EMAIL>
+                                       <ContactPointEmailValue>hemanth_underwriter@abcmortgage.com</ContactPointEmailValue>
+                                    </CONTACT_POINT_EMAIL>
+                                    <CONTACT_POINT_DETAIL>
+                                       <ContactPointPreferenceIndicator>true</ContactPointPreferenceIndicator>
+                                       <ContactPointRoleType>Work</ContactPointRoleType>
+                                    </CONTACT_POINT_DETAIL>
+                                 </CONTACT_POINT>
+                                 <CONTACT_POINT>
+                                    <CONTACT_POINT_TELEPHONE>
+                                       <ContactPointTelephoneValue>2484334400</ContactPointTelephoneValue>
+                                    </CONTACT_POINT_TELEPHONE>
+                                    <CONTACT_POINT_DETAIL>
+                                       <ContactPointPreferenceIndicator>true</ContactPointPreferenceIndicator>
+                                       <ContactPointRoleType>Work</ContactPointRoleType>
+                                    </CONTACT_POINT_DETAIL>
+                                 </CONTACT_POINT>
+                              </CONTACT_POINTS>
+                              <NAME>
+                                 <FullName>hemanth12568</FullName>
+                                 <FunctionalTitleDescription>Underwriter</FunctionalTitleDescription>
+                              </NAME>
+                           </CONTACT>
+                        </CONTACTS>
+                        <LEGAL_ENTITY_DETAIL>
+                           <FullName>Mortgage Company</FullName>
+                        </LEGAL_ENTITY_DETAIL>
+                     </LEGAL_ENTITY>
+                     <ROLES>
+                        <ROLE>
+                           <ROLE_DETAIL>
+                              <PartyRoleType>RespondToParty</PartyRoleType>
+                           </ROLE_DETAIL>
+                           <!--RETURN_TO>
+    <PREFERRED_RESPONSES>
+      <PREFERRED_RESPONSE>
+           <PreferredResponseDestinationDescription>https://testing.XYZWebPortalCompany.com/MiDataPost/post.asp</PreferredResponseDestinationDescription>
+           <PreferredResponseFormatType>PDF</PreferredResponseFormatType>
+          <PreferredResponseMethodType>HTTPS</PreferredResponseMethodType>
+           <PreferredResponseUseEmbeddedFileIndicator>true</PreferredResponseUseEmbeddedFileIndicator>
+       </PREFERRED_RESPONSE>
+    </PREFERRED_RESPONSES>
+
+</RETURN_TO-->
+                        </ROLE>
+                        <ROLE>
+                           <RETURN_TO>
+                              <PREFERRED_RESPONSES>
+                                 <PREFERRED_RESPONSE>
+                                    <PreferredResponseFormatType>PDF</PreferredResponseFormatType>
+                                 </PREFERRED_RESPONSE>
+                              </PREFERRED_RESPONSES>
+                           </RETURN_TO>
+                        </ROLE>
+                     </ROLES>
+                  </PARTY>
+                  <!--<PARTY SequenceNumber="4" xsi:type="PARTY" >
+                                                                                                                <ROLES>
+                                                                                                                                <ROLE>
+                                                                                                                                               <RETURN_TO>
+                                                                                                                                                                <PREFERRED_RESPONSES>
+                                                                                                                                                                                <PREFERRED_RESPONSE>
+                                                                                                                                                                                                <PreferredResponseFormatType>XML</PreferredResponseFormatType>
+                                                                                                                                                                               </PREFERRED_RESPONSE>
+                                                                                                                                                                </PREFERRED_RESPONSES>
+                                                                                                                                                </RETURN_TO>
+                                                                                                                                </ROLE>
+                                                                                                                </ROLES>
+                                                                                                </PARTY> -->
+                  <PARTY SequenceNumber="5" xsi:type="PARTY">
+                     <!--Appraiser_Individual_Section-->
+                     <INDIVIDUAL>
+                        <NAME>
+                           <FirstName>Jim</FirstName>
+                           <LastName>Doe</LastName>
+                        </NAME>
+                     </INDIVIDUAL>
+                     <ROLES>
+                        <ROLE>
+                           <APPRAISER>
+                              <APPRAISER_DETAIL>
+                                 <AppraiserCompanyName>Quality Appraisal Company</AppraiserCompanyName>
+                              </APPRAISER_DETAIL>
+                           </APPRAISER>
+                           <LICENSES>
+                              <LICENSE>
+                                 <APPRAISER_LICENSE>
+                                    <AppraiserLicenseType>LicensedResidentialAppraiser</AppraiserLicenseType>
+                                 </APPRAISER_LICENSE>
+                              </LICENSE>
+                              <LICENSE>
+                                 <LICENSE_DETAIL>
+                                    <LicenseExpirationDate>2018-08-01</LicenseExpirationDate>
+                                    <LicenseIdentifier>323232</LicenseIdentifier>
+                                    <LicenseIssuingAuthorityStateCode>MI</LicenseIssuingAuthorityStateCode>
+                                 </LICENSE_DETAIL>
+                              </LICENSE>
+                           </LICENSES>
+                           <ROLE_DETAIL>
+                              <PartyRoleType>Appraiser</PartyRoleType>
+                           </ROLE_DETAIL>
+                        </ROLE>
+                     </ROLES>
+                  </PARTY>
+                  <PARTY SequenceNumber="6" xsi:type="PARTY">
+                     <!--Appraiser_Supervisor_Section-->
+                     <INDIVIDUAL>
+                        <NAME>
+                           <FirstName>Jack</FirstName>
+                           <LastName>Smith</LastName>
+                        </NAME>
+                     </INDIVIDUAL>
+                     <ROLES>
+                        <ROLE>
+                           <APPRAISER_SUPERVISOR>
+                              <APPRAISER_SUPERVISOR_DETAIL>
+                                 <AppraiserSupervisorCompanyName>Smith Appraisal Company</AppraiserSupervisorCompanyName>
+                              </APPRAISER_SUPERVISOR_DETAIL>
+                           </APPRAISER_SUPERVISOR>
+                           <LICENSES>
+                              <LICENSE>
+                                 <APPRAISER_LICENSE>
+                                    <AppraiserLicenseType>LicensedResidentialAppraiser</AppraiserLicenseType>
+                                 </APPRAISER_LICENSE>
+                              </LICENSE>
+                              <LICENSE>
+                                 <LICENSE_DETAIL>
+                                    <LicenseExpirationDate>2018-09-01</LicenseExpirationDate>
+                                    <LicenseIdentifier>545454</LicenseIdentifier>
+                                    <LicenseIssuingAuthorityStateCode>MI</LicenseIssuingAuthorityStateCode>
+                                 </LICENSE_DETAIL>
+                              </LICENSE>
+                           </LICENSES>
+                           <ROLE_DETAIL>
+                              <PartyRoleType>AppraiserSupervisor</PartyRoleType>
+                           </ROLE_DETAIL>
+                        </ROLE>
+                     </ROLES>
+                  </PARTY>
+                  <!--PARTY SequenceNumber="7" xsi:type="PARTY">
+							<Interviewer_Section>
+							<INDIVIDUAL>
+								<NAME>
+									<FullName>Johnson </FullName>
+									<FirstName>Ricky</FirstName>
+									<LastName>Martin</LastName>
+								
+                             	</NAME>
+							</INDIVIDUAL>
+							
+							
+							<ROLES>
+								<ROLE>
+									<ROLE_DETAIL>
+										<PartyRoleType>Interviewer</PartyRoleType>
+									</ROLE_DETAIL>
+								</ROLE>
+							</ROLES>
+						</PARTY-->
+                  <PARTY SequenceNumber="8" xsi:type="PARTY">
+                     <!--Borrower_Print_Position_One-->
+                     <INDIVIDUAL>
+                        <NAME>
+                           <FirstName>Checknow10</FirstName>
+                           <LastName>checknow11</LastName>
+                           <MiddleName>checknow6</MiddleName>
+                           <SuffixName>No</SuffixName>
+                        </NAME>
+                     </INDIVIDUAL>
+                     <ROLES>
+                        <ROLE xmlns:xlink="http://www.w3.org/1999/xlink" xlink:label="BORR_01">
+                           <BORROWER>
+                              <BORROWER_DETAIL>
+                                 <BorrowerAgeAtApplicationYearsCount>45</BorrowerAgeAtApplicationYearsCount>
+                                 <BorrowerApplicationSignedDate>2018-03-01</BorrowerApplicationSignedDate>
+                                 <BorrowerBirthDate>1967-08-01</BorrowerBirthDate>
+                                 <BorrowerClassificationType>Primary</BorrowerClassificationType>
+                                 <!-- BorrowerClassificationType replaces Borrower Print Position Type" from Version 2.x -->
+                                 <BorrowerMailToAddressSameAsPropertyIndicator>false</BorrowerMailToAddressSameAsPropertyIndicator>
+                                 <BorrowerQualifyingIncomeAmount>5500.0</BorrowerQualifyingIncomeAmount>
+                                 <BorrowerRelationshipTitleType>AHusbandAndWife</BorrowerRelationshipTitleType>
+                                 <DependentCount>1</DependentCount>
+                                 <JointAssetLiabilityReportingType>Jointly</JointAssetLiabilityReportingType>
+                                 <MaritalStatusType>Married</MaritalStatusType>
+                                 <SchoolingYearsCount>14</SchoolingYearsCount>
+                              </BORROWER_DETAIL>
+                              <COUNSELING>
+                                 <COUNSELING_DETAIL>
+                                    <CounselingConfirmationIndicator>true</CounselingConfirmationIndicator>
+                                 </COUNSELING_DETAIL>
+                                 <COUNSELING_EVENTS>
+                                    <COUNSELING_EVENT>
+                                       <CounselingFormatType>HomeStudy</CounselingFormatType>
+                                    </COUNSELING_EVENT>
+                                 </COUNSELING_EVENTS>
+                              </COUNSELING>
+                              <CREDIT_SCORES>
+                                 <CREDIT_SCORE SequenceNumber="1" xlink:label="BORR_01_CS1">
+                                    <CREDIT_SCORE_DETAIL>
+                                       <CreditReportIdentifier>EQ111</CreditReportIdentifier>
+                                       <CreditReportType>Merge</CreditReportType>
+                                       <CreditRepositorySourceType>Equifax</CreditRepositorySourceType>
+                                       <CreditScoreCategoryType>FICO</CreditScoreCategoryType>
+                                       <CreditScoreDate>2018-03-01</CreditScoreDate>
+                                       <CreditScoreModelNameType>EquifaxBeacon</CreditScoreModelNameType>
+                                       <CreditScoreValue>734</CreditScoreValue>
+                                    </CREDIT_SCORE_DETAIL>
+                                    <CREDIT_SCORE_FACTORS>
+                                       <CREDIT_SCORE_FACTOR SequenceNumber="1">
+                                          <CreditScoreFactorCode>01</CreditScoreFactorCode>
+                                          <CreditScoreFactorText>Amount owed on accounts 
+														is too high</CreditScoreFactorText>
+                                       </CREDIT_SCORE_FACTOR>
+                                    </CREDIT_SCORE_FACTORS>
+                                 </CREDIT_SCORE>
+                              </CREDIT_SCORES>
+                              <CURRENT_INCOME>
+                                 <CURRENT_INCOME_DETAIL>
+                                    <URLABorrowerTotalMonthlyIncomeAmount>5000.00</URLABorrowerTotalMonthlyIncomeAmount>
+                                 </CURRENT_INCOME_DETAIL>
+                                 <CURRENT_INCOME_ITEMS>
+                                    <CURRENT_INCOME_ITEM SequenceNumber="1" xlink:label="BORR_01_INC_1">
+                                       <CURRENT_INCOME_ITEM_DETAIL>
+                                          <CurrentIncomeMonthlyTotalAmount>5000.00</CurrentIncomeMonthlyTotalAmount>
+                                          <IncomeType>Base</IncomeType>
+                                       </CURRENT_INCOME_ITEM_DETAIL>
+                                       <VERIFICATION xlink:label="B1_INC_1_VERIFICATION">
+                                          <VerificationByName>Joe Processor</VerificationByName>
+                                          <VerificationDate>2018-03-01</VerificationDate>
+                                          <VerificationMethodType>Verbal</VerificationMethodType>
+                                          <VerificationStatusType>Verified</VerificationStatusType>
+                                       </VERIFICATION>
+                                    </CURRENT_INCOME_ITEM>
+                                    <CURRENT_INCOME_ITEM SequenceNumber="1" xlink:label="BORR_01_INC_2">
+                                       <CURRENT_INCOME_ITEM_DETAIL>
+                                          <CurrentIncomeMonthlyTotalAmount>500.00</CurrentIncomeMonthlyTotalAmount>
+                                          <IncomeType>Overtime</IncomeType>
+                                       </CURRENT_INCOME_ITEM_DETAIL>
+                                    </CURRENT_INCOME_ITEM>
+                                    <CURRENT_INCOME_ITEM SequenceNumber="1" xlink:label="BORR_01_INC_1">
+                                       <CURRENT_INCOME_ITEM_DETAIL>
+                                          <CurrentIncomeMonthlyTotalAmount>100.00</CurrentIncomeMonthlyTotalAmount>
+                                          <IncomeType>Bonus</IncomeType>
+                                       </CURRENT_INCOME_ITEM_DETAIL>
+                                       <VERIFICATION xlink:label="B1_INC_1_VERIFICATION">
+                                          <VerificationByName>Joe Processor</VerificationByName>
+                                          <VerificationDate>2018-03-01</VerificationDate>
+                                          <VerificationMethodType>Verbal</VerificationMethodType>
+                                          <VerificationStatusType>Verified</VerificationStatusType>
+                                       </VERIFICATION>
+                                    </CURRENT_INCOME_ITEM>
+                                    <CURRENT_INCOME_ITEM SequenceNumber="1" xlink:label="BORR_01_INC_1">
+                                       <CURRENT_INCOME_ITEM_DETAIL>
+                                          <CurrentIncomeMonthlyTotalAmount>100.00</CurrentIncomeMonthlyTotalAmount>
+                                          <IncomeType>Commissions</IncomeType>
+                                       </CURRENT_INCOME_ITEM_DETAIL>
+                                       <VERIFICATION xlink:label="B1_INC_1_VERIFICATION">
+                                          <VerificationByName>Joe Processor</VerificationByName>
+                                          <VerificationDate>2018-03-01</VerificationDate>
+                                          <VerificationMethodType>Verbal</VerificationMethodType>
+                                          <VerificationStatusType>Verified</VerificationStatusType>
+                                       </VERIFICATION>
+                                    </CURRENT_INCOME_ITEM>
+                                    <CURRENT_INCOME_ITEM SequenceNumber="1" xlink:label="BORR_01_INC_1">
+                                       <CURRENT_INCOME_ITEM_DETAIL>
+                                          <CurrentIncomeMonthlyTotalAmount>100.00</CurrentIncomeMonthlyTotalAmount>
+                                          <IncomeType>DividendsInterest</IncomeType>
+                                       </CURRENT_INCOME_ITEM_DETAIL>
+                                       <VERIFICATION xlink:label="B1_INC_1_VERIFICATION">
+                                          <VerificationByName>Joe Processor</VerificationByName>
+                                          <VerificationDate>2018-03-01</VerificationDate>
+                                          <VerificationMethodType>Verbal</VerificationMethodType>
+                                          <VerificationStatusType>Verified</VerificationStatusType>
+                                       </VERIFICATION>
+                                    </CURRENT_INCOME_ITEM>
+                                    <!--CURRENT_INCOME_ITEM SequenceNumber="1" xlink:label="BORR_01_INC_1">
+													<CURRENT_INCOME_ITEM_DETAIL>
+														<CurrentIncomeMonthlyTotalAmount>100.00</CurrentIncomeMonthlyTotalAmount>
+														<IncomeType>NetRentalIncome</IncomeType>
+													</CURRENT_INCOME_ITEM_DETAIL>
+													<VERIFICATION xlink:label="B1_INC_1_VERIFICATION">
+														<VerificationByName>Joe Processor</VerificationByName>
+														<VerificationDate>2018-03-01</VerificationDate>
+														<VerificationMethodType>Verbal</VerificationMethodType>
+														<VerificationStatusType>Verified</VerificationStatusType>
+													</VERIFICATION>
+												</CURRENT_INCOME_ITEM-->
+                                    <CURRENT_INCOME_ITEM SequenceNumber="1" xlink:label="BORR_01_INC_1">
+                                       <CURRENT_INCOME_ITEM_DETAIL>
+                                          <CurrentIncomeMonthlyTotalAmount>100.00</CurrentIncomeMonthlyTotalAmount>
+                                          <IncomeType>SubjectPropertyNetCashFlow</IncomeType>
+                                       </CURRENT_INCOME_ITEM_DETAIL>
+                                       <VERIFICATION xlink:label="B1_INC_1_VERIFICATION">
+                                          <VerificationByName>Joe Processor</VerificationByName>
+                                          <VerificationDate>2018-03-01</VerificationDate>
+                                          <VerificationMethodType>Verbal</VerificationMethodType>
+                                          <VerificationStatusType>Verified</VerificationStatusType>
+                                       </VERIFICATION>
+                                    </CURRENT_INCOME_ITEM>
+                                 </CURRENT_INCOME_ITEMS>
+                              </CURRENT_INCOME>
+                              <DECLARATION>
+                                 <DECLARATION_DETAIL>
+                                    <AlimonyChildSupportObligationIndicator>true</AlimonyChildSupportObligationIndicator>
+                                    <BankruptcyIndicator>false</BankruptcyIndicator>
+                                    <BorrowedDownPaymentIndicator>false</BorrowedDownPaymentIndicator>
+                                    <BorrowerFirstTimeHomebuyerIndicator>false</BorrowerFirstTimeHomebuyerIndicator>
+                                    <CitizenshipResidencyType>USCitizen</CitizenshipResidencyType>
+                                    <CoMakerEndorserOfNoteIndicator>false</CoMakerEndorserOfNoteIndicator>
+                                    <HomeownerPastThreeYearsType>Yes</HomeownerPastThreeYearsType>
+                                    <IntentToOccupyType>Yes</IntentToOccupyType>
+                                    <LoanForeclosureOrJudgmentIndicator>false</LoanForeclosureOrJudgmentIndicator>
+                                    <OutstandingJudgmentsIndicator>false</OutstandingJudgmentsIndicator>
+                                    <PartyToLawsuitIndicator>false</PartyToLawsuitIndicator>
+                                    <PresentlyDelinquentIndicator>false</PresentlyDelinquentIndicator>
+                                    <PriorPropertyTitleType>JointWithSpouse</PriorPropertyTitleType>
+                                    <PriorPropertyUsageType>PrimaryResidence</PriorPropertyUsageType>
+                                    <PropertyForeclosedPastSevenYearsIndicator>false</PropertyForeclosedPastSevenYearsIndicator>
+                                 </DECLARATION_DETAIL>
+                                 <DECLARATION_EXPLANATIONS>
+                                    <DECLARATION_EXPLANATION>
+                                       <DeclarationExplanationType>AlimonyChildSupport</DeclarationExplanationType>
+                                    </DECLARATION_EXPLANATION>
+                                 </DECLARATION_EXPLANATIONS>
+                              </DECLARATION>
+                              <DEPENDENTS>
+                                 <DEPENDENT>
+                                    <DependentAgeYearsCount>14</DependentAgeYearsCount>
+                                 </DEPENDENT>
+                              </DEPENDENTS>
+                              <EMPLOYERS>
+                                 <EMPLOYER>
+                                    <LEGAL_ENTITY>
+                                       <LEGAL_ENTITY_DETAIL>
+                                          <FullName>Hammond Bakery</FullName>
+                                       </LEGAL_ENTITY_DETAIL>
+                                    </LEGAL_ENTITY>
+                                    <ADDRESS>
+                                       <AddressLineText>123 Main Street</AddressLineText>
+                                       <CityName>Dearborn</CityName>
+                                       <PostalCode>48126</PostalCode>
+                                       <StateCode>MI</StateCode>
+                                    </ADDRESS>
+                                    <EMPLOYMENT>
+                                       <EmploymentBorrowerSelfEmployedIndicator>true</EmploymentBorrowerSelfEmployedIndicator>
+                                       <EmploymentClassificationType>Primary</EmploymentClassificationType>
+                                       <EmploymentMonthlyIncomeAmount>5500.0</EmploymentMonthlyIncomeAmount>
+                                       <EmploymentMonthsOnJobCount>36</EmploymentMonthsOnJobCount>
+                                       <EmploymentPositionDescription>Baker</EmploymentPositionDescription>
+                                       <EmploymentStatusType>Previous</EmploymentStatusType>
+                                       <EmploymentTimeInLineOfWorkMonthsCount>60</EmploymentTimeInLineOfWorkMonthsCount>
+                                       <EmploymentTimeInLineOfWorkYearsCount>5</EmploymentTimeInLineOfWorkYearsCount>
+                                       <EmploymentYearsOnJobCount>3</EmploymentYearsOnJobCount>
+                                    </EMPLOYMENT>
+                                    <VERIFICATION>
+                                       <VerificationByName>Joe Processor</VerificationByName>
+                                       <VerificationDate>2018-03-01</VerificationDate>
+                                       <VerificationMethodType>Verbal</VerificationMethodType>
+                                       <VerificationStatusType>Verified</VerificationStatusType>
+                                    </VERIFICATION>
+                                 </EMPLOYER>
+                              </EMPLOYERS>
+                              <GOVERNMENT_MONITORING>
+                                 <GOVERNMENT_MONITORING_DETAIL>
+                                    <GenderType>Male</GenderType>
+                                    <HMDAEthnicityType>NotHispanicOrLatino</HMDAEthnicityType>
+                                    <RaceNationalOriginRefusalIndicator>false</RaceNationalOriginRefusalIndicator>
+                                 </GOVERNMENT_MONITORING_DETAIL>
+                                 <HMDA_RACES>
+                                    <HMDA_RACE>
+                                       <HMDARaceType>Asian</HMDARaceType>
+                                    </HMDA_RACE>
+                                    <HMDA_RACE>
+                                       <HMDARaceType>White</HMDARaceType>
+                                    </HMDA_RACE>
+                                 </HMDA_RACES>
+                              </GOVERNMENT_MONITORING>
+                              <HOUSING_EXPENSES>
+                                 <HOUSING_EXPENSE>
+                                    <HousingExpensePaymentAmount>65</HousingExpensePaymentAmount>
+                                    <HousingExpensePaymentAmountType>Present</HousingExpensePaymentAmountType>
+                                    <HousingExpenseType>RealEstateTax</HousingExpenseType>
+                                 </HOUSING_EXPENSE>
+                                 <HOUSING_EXPENSE>
+                                    <HousingExpensePaymentAmount>65</HousingExpensePaymentAmount>
+                                    <HousingExpensePaymentAmountType>Proposed</HousingExpensePaymentAmountType>
+                                    <HousingExpenseType>GroundRent</HousingExpenseType>
+                                 </HOUSING_EXPENSE>
+                              </HOUSING_EXPENSES>
+                              <RESIDENCES>
+                                 <RESIDENCE>
+                                    <ADDRESS>
+                                       <AddressLineText>74500 Madison Street</AddressLineText>
+                                       <AddressType>Primary</AddressType>
+                                       <AddressUnitIdentifier>unit</AddressUnitIdentifier>
+                                       <CityName>Wayne</CityName>
+                                       <PostalCode>48126</PostalCode>
+                                       <StateCode>MI</StateCode>
+                                    </ADDRESS>
+                                    <RESIDENCE_DETAIL>
+                                       <BorrowerResidencyBasisType>Own</BorrowerResidencyBasisType>
+                                       <BorrowerResidencyDurationYearsCount>3</BorrowerResidencyDurationYearsCount>
+                                       <BorrowerResidencyType>Current</BorrowerResidencyType>
+                                    </RESIDENCE_DETAIL>
+                                 </RESIDENCE>
+                              </RESIDENCES>
+                              <SUMMARIES>
+                                 <!--SUMMARY>
+												<SummaryAmount>400</SummaryAmount>
+												<SummaryAmountType>SubtotalLiabilitiesMonthlyPayment</SummaryAmountType>
+											</SUMMARY-->
+                              </SUMMARIES>
+                           </BORROWER>
+                           <ROLE_DETAIL>
+                              <PartyRoleType>Borrower</PartyRoleType>
+                           </ROLE_DETAIL>
+                        </ROLE>
+                     </ROLES>
+                     <TAXPAYER_IDENTIFIERS>
+                        <TAXPAYER_IDENTIFIER>
+                           <TaxpayerIdentifierType>SocialSecurityNumber</TaxpayerIdentifierType>
+                           <TaxpayerIdentifierValue>111111111</TaxpayerIdentifierValue>
+                        </TAXPAYER_IDENTIFIER>
+                     </TAXPAYER_IDENTIFIERS>
+                  </PARTY>
+               </PARTIES>
+               <RELATIONSHIPS xsi:type="RELATIONSHIPS">
+                  <!--Linking LIABILITY to ROLE that is BORROWER /-->
+                  <RELATIONSHIP xmlns:xlink="http://www.w3.org/1999/xlink" SequenceNumber="1" xlink:from="LIAB_01" xlink:to="BORR_01" />
+                  <RELATIONSHIP xmlns:xlink="http://www.w3.org/1999/xlink" SequenceNumber="2" xlink:from="LIAB_02" xlink:to="BORR_01" />
+                  <RELATIONSHIP xmlns:xlink="http://www.w3.org/1999/xlink" SequenceNumber="2" xlink:from="REO_01" xlink:to="BORR_01" />
+                  <!--RELATIONSHIP xmlns:xlink="http://www.w3.org/1999/xlink" SequenceNumber="2" xlink:from="REO_02" xlink:to="BORR_01"/-->
+                  <RELATIONSHIP xmlns:xlink="http://www.w3.org/1999/xlink" SequenceNumber="3" xlink:from="REO_01" xlink:to="LIAB_01" />
+                  <!--RELATIONSHIP xmlns:xlink="http://www.w3.org/1999/xlink" SequenceNumber="3" xlink:from="REO_02" xlink:to="LIAB_01"/-->
+               </RELATIONSHIPS>
+               <SERVICES>
+                  <SERVICE>
+                     <MI>
+                        <MI_APPLICATION_REQUEST>
+                           <MI_APPLICATION>
+                              <MIApplicationType>Delegated</MIApplicationType>
+                              <MICertificateIdentifier>2600294410</MICertificateIdentifier>
+                              <MILenderIdentifier>45518-0001</MILenderIdentifier>
+                              <MIServiceType>MIApplication</MIServiceType>
+                              <MITransactionIdentifier>An optional lender or vendor assigned tracking number (numeric or alphanumeric)</MITransactionIdentifier>
+                           </MI_APPLICATION>
+                           <MI_APPLICATION_REQUEST_DETAIL>
+                              <!--InvestorProgramNameType>Calpers</InvestorProgramNameType-->
+                              <!--InvestorProgramNameTypeOtherDescription>LP-10</InvestorProgramNameTypeOtherDescription-->
+                              <MIApplicationRequestType>OriginalRequest</MIApplicationRequestType>
+                              <MICompanyNameType>NationalMI</MICompanyNameType>
+                              <RateQuoteProductComparisonIndicator>true</RateQuoteProductComparisonIndicator>
+                           </MI_APPLICATION_REQUEST_DETAIL>
+                           <MI_PRODUCTS>
+                              <MI_PRODUCT>
+                                 <MICoveragePercent>25</MICoveragePercent>
+                                 <MIDurationType>PeriodicMonthly</MIDurationType>
+                                 <MIInitialPremiumAtClosingType>Prepaid</MIInitialPremiumAtClosingType>
+                                 <MILenderSpecialProgramDescription>LP-1</MILenderSpecialProgramDescription>
+                                 <MIPremiumCalculationType>Constant</MIPremiumCalculationType>
+                                 <MIPremiumFinancedIndicator>false</MIPremiumFinancedIndicator>
+                                 <MIPremiumRatePlanType>Level</MIPremiumRatePlanType>
+                                 <MIPremiumRefundableType>NotRefundable</MIPremiumRefundableType>
+                                 <MIPremiumSourceType>Borrower</MIPremiumSourceType>
+                              </MI_PRODUCT>
+                           </MI_PRODUCTS>
+                        </MI_APPLICATION_REQUEST>
+                     </MI>
+                  </SERVICE>
+               </SERVICES>
+            </DEAL>
+         </DEALS>
+      </DEAL_SET>
+   </DEAL_SETS>
+</MESSAGE>

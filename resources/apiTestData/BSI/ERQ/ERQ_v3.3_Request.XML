@@ -1,0 +1,819 @@
+<MESSAGE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.mismo.org/residential/2009/schemas" MISMOReferenceModelIdentifier="3.3">
+	<ABOUT_VERSIONS>
+		<ABOUT_VERSION SequenceNumber="1">
+			<AboutVersionIdentifier>Retrievable</AboutVersionIdentifier>
+			<CreatedDatetime>2018-02-22T10:19:36-07:00</CreatedDatetime>
+		</ABOUT_VERSION>
+	</ABOUT_VERSIONS>
+	<DEAL_SETS>
+		<DEAL_SET SequenceNumber="1">
+			<DEALS>
+				<DEAL SequenceNumber="1">
+					<ASSETS>
+						<ASSET SequenceNumber="1" xlink:label="ASSET1">
+							<ASSET_DETAIL>
+								<AssetAccountIdentifier>123456</AssetAccountIdentifier>
+								<AssetCashOrMarketValueAmount>50000.00</AssetCashOrMarketValueAmount>
+								<AssetType>CheckingAccount</AssetType>
+							</ASSET_DETAIL>
+							<ASSET_HOLDER>
+								<NAME>
+									<FullName>US Bank</FullName>
+								</NAME>
+							</ASSET_HOLDER>
+						</ASSET>
+					</ASSETS>
+					<COLLATERALS>
+						<COLLATERAL SequenceNumber="1">
+							<SUBJECT_PROPERTY ValuationUseType="SubjectProperty">
+								<ADDRESS>
+									<AddressLineText>123 Main Street</AddressLineText>
+									<CityName>Springfield</CityName>
+									<CountyName>Washington</CountyName>
+									<PostalCode>60707</PostalCode>
+									<StateCode>IL</StateCode>
+								</ADDRESS>
+								<LOCATION_IDENTIFIER>
+									<FIPS_INFORMATION>
+										<FIPSCountyCode>229</FIPSCountyCode>
+									</FIPS_INFORMATION>
+								</LOCATION_IDENTIFIER>
+								<PROJECT>
+									<PROJECT_DETAIL>
+										<PUDIndicator>false</PUDIndicator>
+									</PROJECT_DETAIL>
+								</PROJECT>
+								<PROPERTY_DETAIL>
+									<AttachmentType>Detached</AttachmentType>
+									<ConstructionMethodType>SiteBuilt</ConstructionMethodType>
+									<FinancedUnitCount>3</FinancedUnitCount>
+									<PropertyEstimatedValueAmount>180000.00</PropertyEstimatedValueAmount>
+									<PropertyUsageType>PrimaryResidence</PropertyUsageType>
+									<PUDIndicator>false</PUDIndicator>
+								</PROPERTY_DETAIL>
+								<PROPERTY_TITLE/>
+								<PROPERTY_VALUATIONS>
+									<PROPERTY_VALUATION SequenceNumber="1">
+										<AVMS>
+											<AVM SequenceNumber="1"/>
+										</AVMS>
+										<PROPERTY_VALUATION_DETAIL>
+											<AppraisalIdentifier>9998878</AppraisalIdentifier>
+											<PropertyValuationAmount>180000.00</PropertyValuationAmount>
+											<PropertyValuationEffectiveDate>2018-01-01</PropertyValuationEffectiveDate>
+											<PropertyValuationMethodType>DriveBy</PropertyValuationMethodType>
+										</PROPERTY_VALUATION_DETAIL>
+									</PROPERTY_VALUATION>
+								</PROPERTY_VALUATIONS>
+								<SALES_CONTRACTS>
+									<SALES_CONTRACT SequenceNumber="1">
+										<SALES_CONCESSIONS>
+											<SALES_CONCESSION SequenceNumber="1"/>
+										</SALES_CONCESSIONS>
+									</SALES_CONTRACT>
+								</SALES_CONTRACTS>
+							</SUBJECT_PROPERTY>
+						</COLLATERAL>
+					</COLLATERALS>
+					<LOANS>
+						<COMBINED_LTVS>
+							<COMBINED_LTV SequenceNumber="1">
+								<CombinedLTVRatioPercent>92.5600</CombinedLTVRatioPercent>
+								<HomeEquityCombinedLTVRatioPercent>92.5600</HomeEquityCombinedLTVRatioPercent>
+							</COMBINED_LTV>
+						</COMBINED_LTVS>
+						<LOAN SequenceNumber="1" LoanRoleType="SubjectLoan">
+							<AFFORDABLE_LENDING/>
+							<AMORTIZATION>
+								<AMORTIZATION_RULE>
+									<AmortizationType>Fixed</AmortizationType>
+									<LoanAmortizationPeriodCount>360</LoanAmortizationPeriodCount>
+									<LoanAmortizationPeriodType>Month</LoanAmortizationPeriodType>
+								</AMORTIZATION_RULE>
+							</AMORTIZATION>
+							<!--CONSTRUCTION>
+							<ConstructionLoanType>ConstructionOnly</ConstructionLoanType>						
+							</CONSTRUCTION-->
+							<CLOSING_INFORMATION>
+								<CLOSING_INFORMATION_DETAIL>
+									<ClosingDate>2018-02-25</ClosingDate>
+									<LoanEstimatedClosingDate>2018-02-25</LoanEstimatedClosingDate>
+								</CLOSING_INFORMATION_DETAIL>
+							</CLOSING_INFORMATION>
+							<DOCUMENT_SPECIFIC_DATA_SETS>
+								<DOCUMENT_SPECIFIC_DATA_SET SequenceNumber="1">
+									<URLA>
+										<URLA_DETAIL>
+											<AdditionalBorrowerAssetsConsideredIndicator>false</AdditionalBorrowerAssetsConsideredIndicator>
+											<AdditionalBorrowerAssetsNotConsideredIndicator>false</AdditionalBorrowerAssetsNotConsideredIndicator>
+											<BorrowerPaidDiscountPointsTotalAmount>0.00</BorrowerPaidDiscountPointsTotalAmount>
+											<BorrowerRequestedInterestRatePercent>3.1250</BorrowerRequestedInterestRatePercent>
+											<BorrowerRequestedLoanAmount>166600.00</BorrowerRequestedLoanAmount>
+											<EstimatedClosingCostsAmount>4999.15</EstimatedClosingCostsAmount>
+											<MIAndFundingFeeFinancedAmount>0.00</MIAndFundingFeeFinancedAmount>
+											<PrepaidItemsEstimatedAmount>672.87</PrepaidItemsEstimatedAmount>
+											<PurchasePriceAmount>180000.00</PurchasePriceAmount>
+											<SellerPaidClosingCostsAmount>2145.35</SellerPaidClosingCostsAmount>
+										</URLA_DETAIL>
+									</URLA>
+								</DOCUMENT_SPECIFIC_DATA_SET>
+							</DOCUMENT_SPECIFIC_DATA_SETS>
+							<DOCUMENTATIONS>
+								<DOCUMENTATION>
+									<AssetDocumentationLevelIdentifier>StatedAndVerified</AssetDocumentationLevelIdentifier>
+								</DOCUMENTATION>
+								<DOCUMENTATION>
+									<EmploymentDocumentationLevelIdentifier>StatedAndVerified</EmploymentDocumentationLevelIdentifier>
+								</DOCUMENTATION>
+								<DOCUMENTATION>
+									<IncomeDocumentationLevelIdentifier>StatedAndVerified</IncomeDocumentationLevelIdentifier>
+								</DOCUMENTATION>
+							</DOCUMENTATIONS>
+							<HOUSING_EXPENSES>
+								<HOUSING_EXPENSE SequenceNumber="1">
+									<HousingExpensePaymentAmount>1160.55</HousingExpensePaymentAmount>
+									<HousingExpensePaymentAmountType>Proposed</HousingExpensePaymentAmountType>
+									<HousingExpenseType>FirstMortgagePrincipalAndInterest</HousingExpenseType>
+								</HOUSING_EXPENSE>
+								<HOUSING_EXPENSE SequenceNumber="2">
+									<HousingExpensePaymentAmount>75.00</HousingExpensePaymentAmount>
+									<HousingExpensePaymentAmountType>Proposed</HousingExpensePaymentAmountType>
+									<HousingExpenseType>HazardInsurance</HousingExpenseType>
+								</HOUSING_EXPENSE>
+								<HOUSING_EXPENSE SequenceNumber="3">
+									<HousingExpensePaymentAmount>5.98</HousingExpensePaymentAmount>
+									<HousingExpensePaymentAmountType>Proposed</HousingExpensePaymentAmountType>
+									<HousingExpenseType>RealEstateTax</HousingExpenseType>
+								</HOUSING_EXPENSE>
+								<HOUSING_EXPENSE SequenceNumber="4">
+									<HousingExpensePaymentAmount>38.87</HousingExpensePaymentAmount>
+									<HousingExpensePaymentAmountType>Proposed</HousingExpensePaymentAmountType>
+									<HousingExpenseType>MI</HousingExpenseType>
+								</HOUSING_EXPENSE>
+							</HOUSING_EXPENSES>
+							<LOAN_DETAIL>
+								<ApplicationReceivedDate>2018-02-18</ApplicationReceivedDate>
+								<BalloonIndicator>false</BalloonIndicator>
+								<BorrowerCount>1</BorrowerCount>
+								<BuydownTemporarySubsidyFundingIndicator>false</BuydownTemporarySubsidyFundingIndicator>
+								<ConstructionLoanIndicator>false</ConstructionLoanIndicator>
+								<EscrowIndicator>true</EscrowIndicator>
+								<HELOCIndicator>false</HELOCIndicator>
+								<InterestOnlyIndicator>false</InterestOnlyIndicator>
+								<NegativeAmortizationIndicator>false</NegativeAmortizationIndicator>
+								<PrepaymentPenaltyIndicator>false</PrepaymentPenaltyIndicator>
+								<RelocationLoanIndicator>false</RelocationLoanIndicator>
+							</LOAN_DETAIL>
+							<LOAN_IDENTIFIERS>
+								<LOAN_IDENTIFIER SequenceNumber="1">
+									<LoanIdentifier>US15441_ATC_SC01_ERQ_TC_01_ERQv 3.3</LoanIdentifier>
+									<LoanIdentifierType>LenderCase</LoanIdentifierType>
+								</LOAN_IDENTIFIER>
+								<LOAN_IDENTIFIER SequenceNumber="2">
+									<LoanIdentifier>VE_PurchaseFixed</LoanIdentifier>
+									<LoanIdentifierType>LenderLoan</LoanIdentifierType>
+								</LOAN_IDENTIFIER>
+								<LOAN_IDENTIFIER SequenceNumber="3">
+									<LoanIdentifier>100070202000000310</LoanIdentifier>
+									<LoanIdentifierType>MERS_MIN</LoanIdentifierType>
+								</LOAN_IDENTIFIER>
+								<LOAN_IDENTIFIER SequenceNumber="4">
+									<LoanIdentifier>MI-TEST</LoanIdentifier>
+									<LoanIdentifierType>SellerLoan</LoanIdentifierType>
+								</LOAN_IDENTIFIER>
+							</LOAN_IDENTIFIERS>
+							<LOAN_LEVEL_CREDIT>
+								<CREDIT_SCORE_PROVIDER>
+									<CREDIT_SCORE_PROVIDER_DETAIL/>
+								</CREDIT_SCORE_PROVIDER>
+								<LOAN_LEVEL_CREDIT_DETAIL>
+									<LoanLevelCreditScoreValue>707</LoanLevelCreditScoreValue>
+								</LOAN_LEVEL_CREDIT_DETAIL>
+							</LOAN_LEVEL_CREDIT>
+							<LOAN_PRODUCT>
+								<LOAN_PRODUCT_DETAIL>
+									<ProductDescription>Fixed Rate</ProductDescription>
+									<ProductIdentifier>Fixed Rate</ProductIdentifier>
+									<ProductName>Fixed Rate</ProductName>
+								</LOAN_PRODUCT_DETAIL>
+							</LOAN_PRODUCT>
+							<LOAN_PROGRAMS>
+								<LOAN_PROGRAM SequenceNumber="1">
+									<LoanProgramAffordableIndicator>true</LoanProgramAffordableIndicator>
+									<LoanProgramIdentifier>Home Possible Mortgage</LoanProgramIdentifier>
+								</LOAN_PROGRAM>
+							</LOAN_PROGRAMS>
+							<LTV>
+								<BaseLTVRatioPercent>90</BaseLTVRatioPercent>
+								<LTVRatioPercent>92.5600</LTVRatioPercent>
+							</LTV>
+							<MATURITY>
+								<MATURITY_RULE>
+									<LoanMaturityPeriodCount>180</LoanMaturityPeriodCount>
+									<LoanMaturityPeriodType>Month</LoanMaturityPeriodType>
+								</MATURITY_RULE>
+							</MATURITY>
+							<ORIGINATION_SYSTEMS>
+								<ORIGINATION_SYSTEM SequenceNumber="1">
+									<LoanOriginationSystemName>BytePro</LoanOriginationSystemName>
+								</ORIGINATION_SYSTEM>
+							</ORIGINATION_SYSTEMS>
+							<PAYMENT>
+								<PAYMENT_RULE>
+									<InitialPITIPaymentAmount>1280.40</InitialPITIPaymentAmount>
+									<InitialPrincipalAndInterestPaymentAmount>1160.55</InitialPrincipalAndInterestPaymentAmount>
+									<InitialTaxAndInsurancePaymentAmount>119.85</InitialTaxAndInsurancePaymentAmount>
+									<PaymentFrequencyType>Monthly</PaymentFrequencyType>
+									<PaymentOptionIndicator>false</PaymentOptionIndicator>
+									<ScheduledFirstPaymentDate>2018-04-01</ScheduledFirstPaymentDate>
+								</PAYMENT_RULE>
+							</PAYMENT>
+							<PURCHASE_CREDITS>
+								<PURCHASE_CREDIT SequenceNumber="1">
+									<PurchaseCreditAmount>1400.00</PurchaseCreditAmount>
+									<PurchaseCreditSourceType>BorrowerPaidOutsideClosing</PurchaseCreditSourceType>
+									<PurchaseCreditType>EarnestMoney</PurchaseCreditType>
+								</PURCHASE_CREDIT>
+								<PURCHASE_CREDIT SequenceNumber="2">
+									<PurchaseCreditType>Other</PurchaseCreditType>
+									<PurchaseCreditTypeOtherDescription>Earnest Money</PurchaseCreditTypeOtherDescription>
+								</PURCHASE_CREDIT>
+								<PURCHASE_CREDIT SequenceNumber="3">
+									<PurchaseCreditAmount>431.25</PurchaseCreditAmount>
+									<PurchaseCreditSourceType>Lender</PurchaseCreditSourceType>
+									<PurchaseCreditType>Other</PurchaseCreditType>
+									<PurchaseCreditTypeOtherDescription>Earnest Money</PurchaseCreditTypeOtherDescription>
+								</PURCHASE_CREDIT>
+								<PURCHASE_CREDIT SequenceNumber="4">
+									<PurchaseCreditType>Other</PurchaseCreditType>
+									<PurchaseCreditTypeOtherDescription>Earnest Money</PurchaseCreditTypeOtherDescription>
+								</PURCHASE_CREDIT>
+								<PURCHASE_CREDIT SequenceNumber="5">
+									<PurchaseCreditAmount>729.00</PurchaseCreditAmount>
+									<PurchaseCreditSourceType>PropertySeller</PurchaseCreditSourceType>
+									<PurchaseCreditType>Other</PurchaseCreditType>
+									<PurchaseCreditTypeOtherDescription>Earnest Money</PurchaseCreditTypeOtherDescription>
+								</PURCHASE_CREDIT>
+								<PURCHASE_CREDIT SequenceNumber="6"/>
+							</PURCHASE_CREDITS>
+							<QUALIFICATION>
+								<HousingExpenseRatioPercent>25.6100</HousingExpenseRatioPercent>
+								<QualifyingPaymentAmount>1280.40</QualifyingPaymentAmount>
+								<QualifyingRatePercent>3.1250</QualifyingRatePercent>
+								<TotalDebtExpenseRatioPercent>42</TotalDebtExpenseRatioPercent>
+							</QUALIFICATION>
+									 <REFINANCE>
+					 <RefinanceCashOutDeterminationType>CashOut</RefinanceCashOutDeterminationType>
+					  <RefinancePrimaryPurposeType>MortgageTermReduction</RefinancePrimaryPurposeType>
+					 </REFINANCE>
+							<TERMS_OF_LOAN>
+								<BaseLoanAmount>450000</BaseLoanAmount>
+								<LienPriorityType>FirstLien</LienPriorityType>
+								<LoanPurposeType>Purchase</LoanPurposeType>
+								<!--RefinanceCashOutDeterminationType>CashOut</RefinanceCashOutDeterminationType-->
+								<MortgageType>Conventional</MortgageType>
+								<NoteAmount>166600.00</NoteAmount>
+								<NoteRatePercent>3.1250</NoteRatePercent>
+							</TERMS_OF_LOAN>
+							 <!--REFINANCE>
+					 <RefinanceCashOutDeterminationType>CashOut</RefinanceCashOutDeterminationType>
+					  <RefinancePrimaryPurposeType>CashOut</RefinancePrimaryPurposeType>
+					 </REFINANCE-->
+							<UNDERWRITING>
+								<AUTOMATED_UNDERWRITINGS>
+									<AUTOMATED_UNDERWRITING SequenceNumber="1">
+										<AutomatedUnderwritingCaseIdentifier>000001</AutomatedUnderwritingCaseIdentifier>
+										<AutomatedUnderwritingRecommendationDescription>ApproveEligible</AutomatedUnderwritingRecommendationDescription>
+										<AutomatedUnderwritingSystemType>DesktopUnderwriter</AutomatedUnderwritingSystemType>
+										<DesktopUnderwriterRecommendationType>ApproveEligible</DesktopUnderwriterRecommendationType>
+									</AUTOMATED_UNDERWRITING>
+								</AUTOMATED_UNDERWRITINGS>
+								<UNDERWRITING_DETAIL>
+									<LoanManualUnderwritingIndicator>false</LoanManualUnderwritingIndicator>
+								</UNDERWRITING_DETAIL>
+							</UNDERWRITING>
+							
+							
+						</LOAN>
+					</LOANS>
+					<PARTIES>
+						<PARTY SequenceNumber="1" xlink:label="PARTY1_ROLE1">
+							<LEGAL_ENTITY>
+								<CONTACTS>
+									<CONTACT>
+										<CONTACT_POINTS>
+											<CONTACT_POINT>
+												<CONTACT_POINT_EMAIL>
+													<ContactPointEmailValue>joesmith@tll.com</ContactPointEmailValue>
+												</CONTACT_POINT_EMAIL>
+											</CONTACT_POINT>
+											<CONTACT_POINT>
+												<CONTACT_POINT_TELEPHONE>
+													<ContactPointTelephoneValue>1234567890</ContactPointTelephoneValue>
+												</CONTACT_POINT_TELEPHONE>
+											</CONTACT_POINT>
+										</CONTACT_POINTS>
+										<NAME>
+											<FullName>Joe Lender</FullName>
+										</NAME>
+									</CONTACT>
+								</CONTACTS>
+								<LEGAL_ENTITY_DETAIL>
+									<FullName>Lender Party</FullName>
+								</LEGAL_ENTITY_DETAIL>
+							</LEGAL_ENTITY>
+							<ADDRESSES>
+								<ADDRESS SequenceNumber="1">
+									<AddressLineText>4321 Lender Road</AddressLineText>
+									<AddressType>Mailing</AddressType>
+									<CityName>Lennytown</CityName>
+									<PostalCode>22201</PostalCode>
+									<StateCode>VA</StateCode>
+								</ADDRESS>
+							</ADDRESSES>
+							<ROLES>
+								<ROLE SequenceNumber="1" xlink:label="PARTY1_ROLE1">
+									<LICENSES>
+										<LICENSE SequenceNumber="1">
+											<LICENSE_DETAIL>
+												<LicenseIdentifier>9988776655</LicenseIdentifier>
+											</LICENSE_DETAIL>
+										</LICENSE>
+									</LICENSES>
+									<ROLE_DETAIL>
+										<PartyRoleType>ThirdPartyOriginator</PartyRoleType>
+									</ROLE_DETAIL>
+								</ROLE>
+							</ROLES>
+						</PARTY>
+						<PARTY SequenceNumber="2" xlink:label="PARTY2_ROLE1">
+							<INDIVIDUAL>
+								<CONTACT_POINTS>
+									<CONTACT_POINT>
+										<CONTACT_POINT_TELEPHONE>
+											<ContactPointTelephoneValue>1234567890</ContactPointTelephoneValue>
+										</CONTACT_POINT_TELEPHONE>
+									</CONTACT_POINT>
+								</CONTACT_POINTS>
+								<NAME>
+									<FirstName>Joe</FirstName>
+									<FullName>Joe Lender</FullName>
+									<LastName>Lender</LastName>
+								</NAME>
+							</INDIVIDUAL>
+							<ROLES>
+								<ROLE SequenceNumber="2" xlink:label="PARTY2_ROLE1">
+									<LICENSES>
+										<LICENSE SequenceNumber="1">
+											<LICENSE_DETAIL>
+												<LicenseIdentifier>1234567888</LicenseIdentifier>
+											</LICENSE_DETAIL>
+										</LICENSE>
+									</LICENSES>
+									<ROLE_DETAIL>
+										<PartyRoleType>ThirdPartyOriginator</PartyRoleType>
+									</ROLE_DETAIL>
+								</ROLE>
+							</ROLES>
+						</PARTY>
+						<PARTY SequenceNumber="3" xlink:label="PARTY3_ROLE1">
+							<LEGAL_ENTITY>
+								<CONTACTS>
+									<CONTACT>
+										<CONTACT_POINTS>
+											<CONTACT_POINT>
+												<CONTACT_POINT_EMAIL/>
+											</CONTACT_POINT>
+											<CONTACT_POINT>
+												<CONTACT_POINT_TELEPHONE/>
+											</CONTACT_POINT>
+										</CONTACT_POINTS>
+										<NAME/>
+									</CONTACT>
+								</CONTACTS>
+								<LEGAL_ENTITY_DETAIL>
+									<FullName>Greenwood Mortgage</FullName>
+								</LEGAL_ENTITY_DETAIL>
+							</LEGAL_ENTITY>
+							<ADDRESSES>
+								<ADDRESS SequenceNumber="1">
+									<AddressLineText>1200 MORTGAGE LANE</AddressLineText>
+									<AddressType>Mailing</AddressType>
+									<CityName>SEATTLE</CityName>
+									<PostalCode>98115</PostalCode>
+									<StateCode>WA</StateCode>
+								</ADDRESS>
+							</ADDRESSES>
+							<ROLES>
+								<ROLE SequenceNumber="3" xlink:label="PARTY3_ROLE1">
+									<REQUESTING_PARTY>
+										<EXTENSION>
+											<MISMO>
+												<REQUESTING_PARTY_EXTENSION_DETAIL>
+													<LenderAccountIdentifier>Qat_ProQA_Test</LenderAccountIdentifier>
+													<LenderAccountPassword>B3foreDayS@L!ght</LenderAccountPassword>
+												</REQUESTING_PARTY_EXTENSION_DETAIL>
+											</MISMO>
+										</EXTENSION>
+									</REQUESTING_PARTY>
+									<LICENSES>
+										<LICENSE SequenceNumber="1">
+											<LICENSE_DETAIL>
+												<LicenseIdentifier>11111111</LicenseIdentifier>
+											</LICENSE_DETAIL>
+										</LICENSE>
+									</LICENSES>
+									<ROLE_DETAIL>
+										<PartyRoleType>Lender</PartyRoleType>
+									</ROLE_DETAIL>
+								</ROLE>
+							</ROLES>
+						</PARTY>
+						<PARTY SequenceNumber="4" xlink:label="PARTY4_ROLE1">
+							<LEGAL_ENTITY>
+								<CONTACTS>
+									<CONTACT>
+										<CONTACT_POINTS>
+											<CONTACT_POINT>
+												<CONTACT_POINT_EMAIL/>
+											</CONTACT_POINT>
+											<CONTACT_POINT>
+												<CONTACT_POINT_TELEPHONE/>
+											</CONTACT_POINT>
+										</CONTACT_POINTS>
+										<NAME/>
+									</CONTACT>
+								</CONTACTS>
+								<LEGAL_ENTITY_DETAIL>
+									<FullName>Byte Software</FullName>
+								</LEGAL_ENTITY_DETAIL>
+							</LEGAL_ENTITY>
+							<ADDRESSES>
+								<ADDRESS SequenceNumber="1">
+									<AddressType>Mailing</AddressType>
+								</ADDRESS>
+							</ADDRESSES>
+							<ROLES>
+								<ROLE SequenceNumber="4" xlink:label="PARTY4_ROLE1">
+									<RETURN_TO>
+										<PREFERRED_RESPONSES>
+											<PREFERRED_RESPONSE SequenceNumber="1">
+												<MIMETypeIdentifier>application/pdf</MIMETypeIdentifier>
+												<PreferredResponseFormatType>PDF</PreferredResponseFormatType>
+												<PreferredResponseMethodType>HTTPS</PreferredResponseMethodType>
+												<PreferredResponseUseEmbeddedFileIndicator>true</PreferredResponseUseEmbeddedFileIndicator>
+											</PREFERRED_RESPONSE>
+										</PREFERRED_RESPONSES>
+									</RETURN_TO>
+									<ROLE_DETAIL>
+										<PartyRoleType>SubmittingParty</PartyRoleType>
+									</ROLE_DETAIL>
+								</ROLE>
+							</ROLES>
+						</PARTY>
+						<PARTY SequenceNumber="5" xlink:label="PARTY5_ROLE1">
+							<LEGAL_ENTITY>
+								<CONTACTS>
+									<CONTACT>
+										<CONTACT_POINTS>
+											<CONTACT_POINT>
+												<CONTACT_POINT_EMAIL>
+													<ContactPointEmailValue>jane@bytesoftware.com</ContactPointEmailValue>
+												</CONTACT_POINT_EMAIL>
+											</CONTACT_POINT>
+											<CONTACT_POINT>
+												<CONTACT_POINT_TELEPHONE>
+													<ContactPointTelephoneValue>2066789876</ContactPointTelephoneValue>
+												</CONTACT_POINT_TELEPHONE>
+											</CONTACT_POINT>
+										</CONTACT_POINTS>
+										<NAME>
+											<FullName>Jane J Johnson</FullName>
+										</NAME>
+									</CONTACT>
+								</CONTACTS>
+								<LEGAL_ENTITY_DETAIL>
+									<FullName>Appraisal Co</FullName>
+								</LEGAL_ENTITY_DETAIL>
+							</LEGAL_ENTITY>
+							<ADDRESSES>
+								<ADDRESS SequenceNumber="1">
+									<AddressLineText>123 Appraisal Way</AddressLineText>
+									<AddressType>Mailing</AddressType>
+									<CityName>Annecortes</CityName>
+									<PostalCode>93939</PostalCode>
+									<StateCode>WA</StateCode>
+								</ADDRESS>
+							</ADDRESSES>
+							<ROLES>
+								<ROLE SequenceNumber="5" xlink:label="PARTY5_ROLE1">
+									<APPRAISER>
+										<APPRAISER_DETAIL>
+											<AppraiserCompanyName>Appraisal Co</AppraiserCompanyName>
+										</APPRAISER_DETAIL>
+									</APPRAISER>
+									<LICENSES>
+										<LICENSE SequenceNumber="1">
+											<LICENSE_DETAIL>
+												<LicenseIdentifier>ACC222222</LicenseIdentifier>
+												<LicenseIssuingAuthorityStateCode>WA</LicenseIssuingAuthorityStateCode>
+											</LICENSE_DETAIL>
+										</LICENSE>
+									</LICENSES>
+									<ROLE_DETAIL>
+										<PartyRoleType>Appraiser</PartyRoleType>
+									</ROLE_DETAIL>
+								</ROLE>
+							</ROLES>
+						</PARTY>
+						<PARTY SequenceNumber="6" xlink:label="PARTY6_ROLE1">
+							<INDIVIDUAL>
+								<CONTACT_POINTS>
+									<CONTACT_POINT>
+										<CONTACT_POINT_TELEPHONE>
+											<ContactPointTelephoneValue>2066789876</ContactPointTelephoneValue>
+										</CONTACT_POINT_TELEPHONE>
+									</CONTACT_POINT>
+								</CONTACT_POINTS>
+								<NAME>
+									<FirstName>Jane</FirstName>
+									<FullName>Jane J Johnson</FullName>
+									<LastName>Johnson</LastName>
+									<MiddleName>J</MiddleName>
+								</NAME>
+							</INDIVIDUAL>
+							<ROLES>
+								<ROLE SequenceNumber="6" xlink:label="PARTY6_ROLE1">
+									<APPRAISER>
+										<APPRAISER_DETAIL>
+											<AppraiserCompanyName>Appraisal Co</AppraiserCompanyName>
+										</APPRAISER_DETAIL>
+									</APPRAISER>
+									<LICENSES>
+										<LICENSE SequenceNumber="1">
+											<LICENSE_DETAIL>
+												<LicenseIdentifier>ACU111111</LicenseIdentifier>
+												<LicenseIssuingAuthorityStateCode>WA</LicenseIssuingAuthorityStateCode>
+											</LICENSE_DETAIL>
+										</LICENSE>
+									</LICENSES>
+									<ROLE_DETAIL>
+										<PartyRoleType>Appraiser</PartyRoleType>
+									</ROLE_DETAIL>
+								</ROLE>
+							</ROLES>
+						</PARTY>
+						<PARTY SequenceNumber="7" xlink:label="PARTY_BOR1_ROLE1">
+							<INDIVIDUAL>
+								<CONTACT_POINTS>
+									<CONTACT_POINT>
+										<CONTACT_POINT_TELEPHONE/>
+									</CONTACT_POINT>
+								</CONTACT_POINTS>
+								<NAME>
+									<FirstName>Alice</FirstName>
+									<FullName>Alice Firstimer</FullName>
+									<LastName>Firstimer</LastName>
+								</NAME>
+							</INDIVIDUAL>
+							<ADDRESSES>
+								<ADDRESS SequenceNumber="1">
+									<AddressLineText>123 University Blvd.</AddressLineText>
+									<AddressType>Current</AddressType>
+									<CityName>Arlington</CityName>
+									<PostalCode>22201</PostalCode>
+									<StateCode>VA</StateCode>
+								</ADDRESS>
+							</ADDRESSES>
+							<ROLES>
+								<ROLE xlink:label="PARTY_BOR1_ROLE1">
+									<BORROWER>
+										<BORROWER_DETAIL>
+											<BorrowerClassificationType>Primary</BorrowerClassificationType>
+											<BorrowerMailToAddressSameAsPropertyIndicator>true</BorrowerMailToAddressSameAsPropertyIndicator>
+											<BorrowerQualifyingIncomeAmount>5000.00</BorrowerQualifyingIncomeAmount>
+										</BORROWER_DETAIL>
+										<CREDIT_SCORES>
+											<CREDIT_SCORE SequenceNumber="1">
+												<CREDIT_SCORE_DETAIL>
+													<CreditReportIdentifier>CRScoEFX00</CreditReportIdentifier>
+													<CreditRepositorySourceIndicator>true</CreditRepositorySourceIndicator>
+													<CreditRepositorySourceType>Equifax</CreditRepositorySourceType>
+													<CreditScoreDate>2018-01-04</CreditScoreDate>
+													<CreditScoreModelNameType>Other</CreditScoreModelNameType>
+													<CreditScoreValue>771</CreditScoreValue>
+												</CREDIT_SCORE_DETAIL>
+												<CREDIT_SCORE_PROVIDER>
+													<CREDIT_SCORE_PROVIDER_DETAIL>
+														<CreditScoreProviderName>CBC Innovis</CreditScoreProviderName>
+													</CREDIT_SCORE_PROVIDER_DETAIL>
+												</CREDIT_SCORE_PROVIDER>
+											</CREDIT_SCORE>
+											<CREDIT_SCORE SequenceNumber="2">
+												<CREDIT_SCORE_DETAIL>
+													<CreditReportIdentifier>CRScoEXP00</CreditReportIdentifier>
+													<CreditRepositorySourceIndicator>true</CreditRepositorySourceIndicator>
+													<CreditRepositorySourceType>Experian</CreditRepositorySourceType>
+													<CreditScoreDate>2018-01-04</CreditScoreDate>
+													<CreditScoreModelNameType>Other</CreditScoreModelNameType>
+													<CreditScoreValue>669</CreditScoreValue>
+												</CREDIT_SCORE_DETAIL>
+												<CREDIT_SCORE_PROVIDER>
+													<CREDIT_SCORE_PROVIDER_DETAIL>
+														<CreditScoreProviderName>CBC Innovis</CreditScoreProviderName>
+													</CREDIT_SCORE_PROVIDER_DETAIL>
+												</CREDIT_SCORE_PROVIDER>
+											</CREDIT_SCORE>
+											<CREDIT_SCORE SequenceNumber="3">
+												<CREDIT_SCORE_DETAIL>
+													<CreditReportIdentifier>CRScoTRU00</CreditReportIdentifier>
+													<CreditRepositorySourceIndicator>true</CreditRepositorySourceIndicator>
+													<CreditRepositorySourceType>TransUnion</CreditRepositorySourceType>
+													<CreditScoreDate>2018-01-04</CreditScoreDate>
+													<CreditScoreModelNameType>Other</CreditScoreModelNameType>
+													<CreditScoreValue>770</CreditScoreValue>
+												</CREDIT_SCORE_DETAIL>
+												<CREDIT_SCORE_PROVIDER>
+													<CREDIT_SCORE_PROVIDER_DETAIL>
+														<CreditScoreProviderName>CBC Innovis</CreditScoreProviderName>
+													</CREDIT_SCORE_PROVIDER_DETAIL>
+												</CREDIT_SCORE_PROVIDER>
+											</CREDIT_SCORE>
+										</CREDIT_SCORES>
+										<CURRENT_INCOME>
+											<CURRENT_INCOME_DETAIL>
+												<URLABorrowerTotalMonthlyIncomeAmount>5000.00</URLABorrowerTotalMonthlyIncomeAmount>
+											</CURRENT_INCOME_DETAIL>
+											<CURRENT_INCOME_ITEMS>
+												<CURRENT_INCOME_ITEM SequenceNumber="1">
+													<CURRENT_INCOME_ITEM_DETAIL>
+														<CurrentIncomeMonthlyTotalAmount>5000.00</CurrentIncomeMonthlyTotalAmount>
+														<IncomeType>Base</IncomeType>
+													</CURRENT_INCOME_ITEM_DETAIL>
+												</CURRENT_INCOME_ITEM>
+											</CURRENT_INCOME_ITEMS>
+										</CURRENT_INCOME>
+										<DECLARATION>
+											<DECLARATION_DETAIL>
+												<AlimonyChildSupportObligationIndicator>false</AlimonyChildSupportObligationIndicator>
+												<BankruptcyIndicator>false</BankruptcyIndicator>
+												<BorrowedDownPaymentIndicator>false</BorrowedDownPaymentIndicator>
+												<BorrowerFirstTimeHomebuyerIndicator>true</BorrowerFirstTimeHomebuyerIndicator>
+												<CitizenshipResidencyType>USCitizen</CitizenshipResidencyType>
+												<CoMakerEndorserOfNoteIndicator>false</CoMakerEndorserOfNoteIndicator>
+												<HomeownerPastThreeYearsType>No</HomeownerPastThreeYearsType>
+												<IntentToOccupyType>Yes</IntentToOccupyType>
+												<LoanForeclosureOrJudgmentIndicator>false</LoanForeclosureOrJudgmentIndicator>
+												<OutstandingJudgmentsIndicator>false</OutstandingJudgmentsIndicator>
+												<PartyToLawsuitIndicator>false</PartyToLawsuitIndicator>
+												<PresentlyDelinquentIndicator>false</PresentlyDelinquentIndicator>
+												<PropertyForeclosedPastSevenYearsIndicator>false</PropertyForeclosedPastSevenYearsIndicator>
+											</DECLARATION_DETAIL>
+										</DECLARATION>
+										<EMPLOYERS>
+											<EMPLOYER>
+												<LEGAL_ENTITY>
+													<CONTACTS>
+														<CONTACT>
+															<CONTACT_POINTS>
+																<CONTACT_POINT>
+																	<CONTACT_POINT_TELEPHONE/>
+																</CONTACT_POINT>
+															</CONTACT_POINTS>
+														</CONTACT>
+													</CONTACTS>
+													<LEGAL_ENTITY_DETAIL/>
+												</LEGAL_ENTITY>
+												<ADDRESS/>
+												<EMPLOYMENT>
+													<EmploymentBorrowerSelfEmployedIndicator>false</EmploymentBorrowerSelfEmployedIndicator>
+													<EmploymentClassificationType>Primary</EmploymentClassificationType>
+													<EmploymentEndDate>2018-02-22</EmploymentEndDate>
+													<EmploymentStatusType>Current</EmploymentStatusType>
+												</EMPLOYMENT>
+											</EMPLOYER>
+										</EMPLOYERS>
+										<GOVERNMENT_MONITORING>
+											<GOVERNMENT_MONITORING_DETAIL>
+												<GenderType>Female</GenderType>
+												<HMDAEthnicityType>HispanicOrLatino</HMDAEthnicityType>
+												<RaceNationalOriginRefusalIndicator>false</RaceNationalOriginRefusalIndicator>
+											</GOVERNMENT_MONITORING_DETAIL>
+											<HMDA_RACES>
+												<HMDA_RACE SequenceNumber="1">
+													<HMDARaceType>AmericanIndianOrAlaskaNative</HMDARaceType>
+												</HMDA_RACE>
+												<HMDA_RACE SequenceNumber="2">
+													<HMDARaceType>Asian</HMDARaceType>
+												</HMDA_RACE>
+												<HMDA_RACE SequenceNumber="3">
+													<HMDARaceType>BlackOrAfricanAmerican</HMDARaceType>
+												</HMDA_RACE>
+												<HMDA_RACE SequenceNumber="4">
+													<HMDARaceType>NativeHawaiianOrOtherPacificIslander</HMDARaceType>
+												</HMDA_RACE>
+											</HMDA_RACES>
+										</GOVERNMENT_MONITORING>
+										<HOUSING_EXPENSES>
+											<HOUSING_EXPENSE SequenceNumber="1">
+												<HousingExpensePaymentAmount>0.00</HousingExpensePaymentAmount>
+												<HousingExpensePaymentAmountType>Present</HousingExpensePaymentAmountType>
+												<HousingExpenseType>Rent</HousingExpenseType>
+											</HOUSING_EXPENSE>
+										</HOUSING_EXPENSES>
+										<RESIDENCES>
+											<RESIDENCE>
+												<ADDRESS>
+													<AddressLineText>123 University Blvd.</AddressLineText>
+													<AddressType>Current</AddressType>
+													<CityName>Arlington</CityName>
+													<PostalCode>22201</PostalCode>
+													<StateCode>VA</StateCode>
+												</ADDRESS>
+												<RESIDENCE_DETAIL>
+													<BorrowerResidencyType>Current</BorrowerResidencyType>
+												</RESIDENCE_DETAIL>
+											</RESIDENCE>
+											<RESIDENCE>
+												<ADDRESS>
+													<AddressLineText>1st Former</AddressLineText>
+													<AddressType>Prior</AddressType>
+												</ADDRESS>
+												<RESIDENCE_DETAIL>
+													<BorrowerResidencyType>Prior</BorrowerResidencyType>
+												</RESIDENCE_DETAIL>
+											</RESIDENCE>
+											<RESIDENCE>
+												<ADDRESS>
+													<AddressLineText>2nd Former</AddressLineText>
+													<AddressType>Prior</AddressType>
+												</ADDRESS>
+												<RESIDENCE_DETAIL>
+													<BorrowerResidencyType>Prior</BorrowerResidencyType>
+												</RESIDENCE_DETAIL>
+											</RESIDENCE>
+											<RESIDENCE>
+												<ADDRESS>
+													<AddressLineText>3rd Former</AddressLineText>
+													<AddressType>Prior</AddressType>
+												</ADDRESS>
+												<RESIDENCE_DETAIL>
+													<BorrowerResidencyType>Prior</BorrowerResidencyType>
+												</RESIDENCE_DETAIL>
+											</RESIDENCE>
+										</RESIDENCES>
+									</BORROWER>
+									<ROLE_DETAIL>
+										<PartyRoleType>Borrower</PartyRoleType>
+									</ROLE_DETAIL>
+								</ROLE>
+							</ROLES>
+							<TAXPAYER_IDENTIFIERS>
+								<TAXPAYER_IDENTIFIER SequenceNumber="1">
+									<TaxpayerIdentifierType>SocialSecurityNumber</TaxpayerIdentifierType>
+									<TaxpayerIdentifierValue>000000029</TaxpayerIdentifierValue>
+								</TAXPAYER_IDENTIFIER>
+							</TAXPAYER_IDENTIFIERS>
+						</PARTY>
+					</PARTIES>
+					<RELATIONSHIPS>
+						<RELATIONSHIP SequenceNumber="1" xlink:from="ASSET1" xlink:to="PARTY_BOR1_ROLE1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE"/>
+						<RELATIONSHIP SequenceNumber="2" xlink:from="PARTY2_ROLE1" xlink:to="PARTY1_ROLE1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ROLE_IsEmployedBy_ROLE"/>
+						<RELATIONSHIP SequenceNumber="3" xlink:from="PARTY6_ROLE1" xlink:to="PARTY5_ROLE1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ROLE_IsEmployedBy_ROLE"/>
+					</RELATIONSHIPS>
+					<SERVICES>
+						<SERVICE SequenceNumber="1">
+							<MI>
+								<MI_APPLICATION_REQUEST>
+									<MI_APPLICATION>
+										<MILenderIdentifier>45518-0001</MILenderIdentifier>
+										<MIServiceType>RateQuote</MIServiceType>
+										<MITransactionIdentifier>649db1e8-7904-4b21-861c-7a13bc722f7c</MITransactionIdentifier>
+									</MI_APPLICATION>
+									<MI_APPLICATION_REQUEST_DETAIL>
+										<MICompanyNameType>NationalMI</MICompanyNameType>
+										<RateQuoteAllProductIndicator>false</RateQuoteAllProductIndicator>
+										<RateQuoteProductComparisonIndicator>false</RateQuoteProductComparisonIndicator>
+										<RateQuoteType>Estimated</RateQuoteType>
+									</MI_APPLICATION_REQUEST_DETAIL>
+									<MI_PRODUCTS>
+										<MI_PRODUCT SequenceNumber="1">
+											<MICoveragePercent>25</MICoveragePercent>
+											<MIDurationType>PeriodicMonthly</MIDurationType>
+											<MIInitialPremiumAtClosingType>Deferred</MIInitialPremiumAtClosingType>
+											<MIPremiumCalculationType>Constant</MIPremiumCalculationType>
+											<MIPremiumFinancedIndicator>false</MIPremiumFinancedIndicator>
+											<MIPremiumRatePlanType>Level</MIPremiumRatePlanType>
+											<MIPremiumRefundableType>NotRefundable</MIPremiumRefundableType>
+											<MIPremiumSourceType>Borrower</MIPremiumSourceType>
+										</MI_PRODUCT>
+									</MI_PRODUCTS>
+								</MI_APPLICATION_REQUEST>
+							</MI>
+						</SERVICE>
+					</SERVICES>
+				</DEAL>
+			</DEALS>
+		</DEAL_SET>
+	</DEAL_SETS>
+</MESSAGE>
